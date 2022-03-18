@@ -1,0 +1,39 @@
+.homePageBackground {
+    background-color: black;
+}
+
+.bodyBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.spacersLogo {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .spacersLogo {
+        width: 200px;
+        height: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bodyBox {
+        flex-direction: column;
+    }
+
+    .spacersLogo {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

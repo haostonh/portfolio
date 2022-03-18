@@ -1,0 +1,51 @@
+.navBarTitle {
+    color: black;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+.navButtonBar {
+    margin-left: auto;
+    padding-top: 10px;
+}
+.tabsSize {
+    font-size: 100px;
+}
+.spacers {
+    padding-right: 10px;
+}
+.customizeNavBar {
+    min-height: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navButtonBar {
+        margin-left: 0px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .customizeNavBar {
+        min-height: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

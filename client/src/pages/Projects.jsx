@@ -10,13 +10,14 @@ const Projects = () => {
         <style>{'body { background-color: #D3D3D3 }'}</style>
       </Helmet>
       <NavBar/>
-      <div>
+      <div className='projectsFont'>
         <h1 className='yearTitle'>2022</h1>
-        <h2 className='projectTitle'>Banking System (Jan 2022 - March 2022)</h2>
+        <h2 className='projectTitle'>Banking System (Jan 2022 - Mar 2022)</h2>
         <ul className='projectBody'>
           <li>
             <a href='https://github.com/haostonh/Banking-System' target='_blank' rel='noreferrer'>GitHub Link</a>
           </li>
+          <li>Created with Visual Studio 2019 and MySQL</li>
         </ul>
 
       </div>

@@ -22,6 +22,10 @@ a:active {
   margin-left: 40px;
 }
 
+.projectsFont {
+  font-family: 'Roboto', sans-serif;
+}
+
 .yearTitle {
   margin-left: 20px;
 }

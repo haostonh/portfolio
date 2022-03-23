@@ -31,6 +31,10 @@ li {
   font-family: 'Roboto', sans-serif;
 }
 
+.projectsProjectContainer {
+  margin-bottom: 30px;
+}
+
 .yearTitle {
   margin-left: 20px;
 }

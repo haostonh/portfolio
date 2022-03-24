@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import '../pagesCSS/Contact.css';
 import NavBar from '../components/NavBar';
-
+import linkedinicon from '../images/linkedin-icon.jpg';
 
 const Contact = () => {
   return (
@@ -12,8 +12,8 @@ const Contact = () => {
       </Helmet>
       <NavBar/>
       <div className='contactFont'>
-        <h1>GET IN TOUCH</h1>
-        <img src={require('../images/linkedin-icon.jpg')} alt={"LinkedIn Icon"}/>
+        <h1 className='contactTitle'>GET IN TOUCH</h1>
+        <img src={linkedinicon} alt={"LinkedIn Icon"} width='50' height='50'/>
       </div>
     </div>
   );

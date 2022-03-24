@@ -8,3 +8,18 @@
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
+.contactPictureandTextBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactPictureFormat {
+  margin-right: 15px;
+}
+
+.contactTextFormat {
+  margin-left: 15px;
+}

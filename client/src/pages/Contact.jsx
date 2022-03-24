@@ -10,6 +10,9 @@ const Contact = () => {
         <style>{'body { background-color: #D3D3D3 }'}</style>
       </Helmet>
       <NavBar/>
+      <div>
+        <h1 className='contactTitle'>GET IN TOUCH</h1>
+      </div>
     </div>
   );
 };

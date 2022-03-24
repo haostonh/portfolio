@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import '../pagesCSS/Contact.css';
 import NavBar from '../components/NavBar';
 
+
 const Contact = () => {
   return (
     <div>
@@ -10,8 +11,9 @@ const Contact = () => {
         <style>{'body { background-color: #D3D3D3 }'}</style>
       </Helmet>
       <NavBar/>
-      <div>
-        <h1 className='contactTitle'>GET IN TOUCH</h1>
+      <div className='contactFont'>
+        <h1>GET IN TOUCH</h1>
+        <img src={require('../images/linkedin-icon.jpg')} alt={"LinkedIn Icon"}/>
       </div>
     </div>
   );

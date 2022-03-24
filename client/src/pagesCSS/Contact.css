@@ -7,6 +7,7 @@
 .contactTitle {
   margin-bottom: 40px;
   margin-top: 40px;
+  font-size: 40px;
 }
 
 .contactPictureandTextBox {
@@ -14,6 +15,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .contactPictureFormat {
@@ -22,4 +24,5 @@
 
 .contactTextFormat {
   margin-left: 15px;
+  font-size: 30px;
 }

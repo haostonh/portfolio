@@ -15,7 +15,7 @@ const Contact = () => {
         <h1 className='contactTitle'>GET IN TOUCH</h1>
         <div className='contactPictureandTextBox'>
           <img className='contactPictureFormat' src={linkedinicon} alt={"LinkedIn Icon"} width='50' height='50'/>
-          <a className='contactTextFormat' href='https://www.linkedin.com/in/haoston-huynh/' target='_blank' rel='noreferrer'>LinkedIn</a>
+          <a className='contactTextFormat' href='https://www.linkedin.com/in/haoston-huynh/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
         </div>
       </div>
     </div>

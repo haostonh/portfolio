@@ -16,7 +16,7 @@ const Projects = () => {
           <h2 className='projectTitle'>Banking System (Jan 2022 - Mar 2022)</h2>
           <ul className='projectBody'>
             <li>
-              <a href='https://github.com/haostonh/Banking-System' target='_blank' rel='noreferrer'>GitHub Link</a>
+              <a href='https://github.com/haostonh/Banking-System' target='_blank' rel='noopener noreferrer'>GitHub Link</a>
             </li>
             <li>Created with Visual Studio 2019 and MySQL</li>
             <li>Keep Track of Customer's Balances using MySQL database</li>
@@ -34,7 +34,7 @@ const Projects = () => {
           <h2 className='projectTitle'>Tic-Tac-Toe (Jan 2022 - Mar 2022)</h2>
           <ul className='projectBody'>
             <li>
-              <a href='https://github.com/haostonh/tic-tac-toe' target='_blank' rel='noreferrer'>GitHub Link</a>
+              <a href='https://github.com/haostonh/tic-tac-toe' target='_blank' rel='noopener noreferrer'>GitHub Link</a>
             </li>
             <li>Created with C++</li>
             <li>Simple Game of Tic-Tac-Toe</li>

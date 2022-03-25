@@ -38,3 +38,24 @@ li {
 .yearTitle {
   margin-left: 20px;
 }
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 425px) {
+  .yearTitle {
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .projectTitle {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .projectBody{
+    margin-left: 0px;
+    font-size: 15px;
+    margin-right: 15px;
+  }
+}

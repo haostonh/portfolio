@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import '../pagesCSS/Contact.css';
 import NavBar from '../components/NavBar';
 import linkedinicon from '../images/linkedin-icon.jpg';
-import githubicon from '../images/GitHub-Mark-Light-64px.png'
+import githubicon from '../images/GitHub-Mark-64px.png'
 
 const Contact = () => {
   return (

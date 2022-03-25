@@ -1,5 +1,5 @@
 import React from 'react';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import { orange } from '@material-ui/core/colors';
 import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom';
@@ -29,17 +29,24 @@ const tabsTheme = createMuiTheme({
   },
 });
 
-const navBarButtonStyle = {
-  color: "#000000", 
-  fontSize: "30px",
-  fontWeight: "500", 
-  fontFamily: "'Roboto', sans-serif", 
-  marginLeft: '10px', 
-  marginTop: '12px', 
-  letterSpacing:"1px"
-};
+const navBarButtonStyle = makeStyles(theme => ({
+  button: {
+    color: "#000000", 
+    fontSize: "30px",
+    fontWeight: "500", 
+    fontFamily: "'Roboto', sans-serif", 
+    marginLeft: '0px',
+    marginTop: '0px',
+    letterSpacing:"1px",
+    "@media (min-width: 426px)": {
+      marginLeft: '10px', 
+      marginTop: '12px'
+    }
+  }
+}));
 
 const NavBar = () => {
+  const classes = navBarButtonStyle();
   return (
     <ThemeProvider>
         {/*<ToolBar> */}
@@ -48,9 +55,9 @@ const NavBar = () => {
             <div className="navButtonBar">
                 <ThemeProvider theme={tabsTheme}>
                 <Button component={Link} to="/portfolio" color="primary" 
-                className='navBarButtonFormat'>Home</Button>
+                className={classes.button}>Home</Button>
                 <Button component={Link} to="/portfolio/about" color="primary" 
-                style={navBarButtonStyle}>About</Button>
+                className={classes.button}>About</Button>
                 <Button component={Link} to="/portfolio/projects" color="primary" 
                 style={{ color: "#000000", fontSize: "30px", fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>Projects</Button>
                 <Button component={Link} to="/portfolio/contact" color="primary" 

@@ -51,6 +51,7 @@
   .navButtonBar {
       margin-left: 20px;
       margin-right: 20px;
+      margin-bottom: 10px;
       padding-top: 10px;
       display: flex;
       flex-direction: row;
@@ -77,6 +78,7 @@
   }
   .navButtonBar {
     margin-left: 0px;
+    margin-bottom: 10px;
     padding-top: 0px;
     display: flex;
     flex-direction: row;

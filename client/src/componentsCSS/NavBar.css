@@ -39,7 +39,7 @@
   letter-spacing: 1px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .navBarTitle {
     text-align: center;
     margin-left: 60px;

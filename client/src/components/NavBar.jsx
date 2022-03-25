@@ -38,7 +38,7 @@ const navBarButtonStyle = makeStyles(theme => ({
     marginLeft: '10px',
     marginTop: '20px',
     letterSpacing:"1px",
-    "@media (min-width: 426px) and (max-width: 768px)": {
+    "@media (min-width: 426px) and (max-width: 1024px)": {
       fontSize: "25px",
       marginLeft: '0px', 
       marginTop: '0px'

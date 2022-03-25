@@ -29,6 +29,16 @@ const tabsTheme = createMuiTheme({
   },
 });
 
+const navBarButtonStyle = {
+  color: "#000000", 
+  fontSize: "30px",
+  fontWeight: "500", 
+  fontFamily: "'Roboto', sans-serif", 
+  marginLeft: '10px', 
+  marginTop: '12px', 
+  letterSpacing:"1px"
+};
+
 const NavBar = () => {
   return (
     <ThemeProvider>
@@ -38,9 +48,9 @@ const NavBar = () => {
             <div className="navButtonBar">
                 <ThemeProvider theme={tabsTheme}>
                 <Button component={Link} to="/portfolio" color="primary" 
-                style={{ color: "#000000", fontSize: "30px", fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>Home</Button>
+                className='navBarButtonFormat'>Home</Button>
                 <Button component={Link} to="/portfolio/about" color="primary" 
-                style={{ color: "#000000", fontSize: "30px",fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>About</Button>
+                style={navBarButtonStyle}>About</Button>
                 <Button component={Link} to="/portfolio/projects" color="primary" 
                 style={{ color: "#000000", fontSize: "30px", fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>Projects</Button>
                 <Button component={Link} to="/portfolio/contact" color="primary" 

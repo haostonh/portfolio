@@ -30,8 +30,17 @@
     padding-right: 24px;
     background: white;
 }
+.navBarButtonFormat {
+  color:black;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .navButtonBar {
         margin-left: 0px;
         padding-top: 10px;
@@ -48,4 +57,29 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+}
+
+@media screen and (max-width: 425px) {
+  .navBarTitle {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+  }
+  .navButtonBar {
+    margin-left: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .customizeNavBar {
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

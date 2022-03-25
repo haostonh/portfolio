@@ -47,7 +47,8 @@
     font-size: 30px;
   }
   .navButtonBar {
-      margin-left: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
       padding-top: 10px;
       display: flex;
       flex-direction: row;

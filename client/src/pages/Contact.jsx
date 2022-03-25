@@ -4,6 +4,7 @@ import '../pagesCSS/Contact.css';
 import NavBar from '../components/NavBar';
 import linkedinicon from '../images/linkedin-icon.jpg';
 import githubicon from '../images/GitHub-Mark-64px.png';
+import leetcodeicon from '../images/LeetCode-Icon-Square.png';
 import hackerrankicon from '../images/HackerRank-Icon-480px.png';
 
 const Contact = () => {
@@ -22,6 +23,10 @@ const Contact = () => {
         <div className='contactPictureandTextBox'>
           <img className='contactPictureFormat' src={githubicon} alt={"GitHub Icon"} width='64' height='64'/>
           <a className='contactTextFormat' href='https://github.com/haostonh' target='_blank' rel='noopener noreferrer'>GitHub</a>
+        </div>
+        <div className='contactPictureandTextBox'>
+          <img className='contactPictureFormat' src={leetcodeicon} alt={"LeetCode Icon"} width='64' height='64'/>
+          <a className='contactTextFormat' href='https://leetcode.com/haostonh/' target='_blank' rel='noopener noreferrer'>LeetCode</a>
         </div>
         <div className='contactPictureandTextBox'>
           <img className='contactPictureFormat' src={hackerrankicon} alt={"HackerRank Icon"} width='64' height='64'/>

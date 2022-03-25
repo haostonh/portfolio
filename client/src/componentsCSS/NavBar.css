@@ -28,7 +28,9 @@
     flex-direction: row;
     padding-left: 24px;
     padding-right: 24px;
-    background: white;
+    background: #F0FFFF;
+    border-bottom-style: solid;
+    border-color: black;
 }
 .navBarButtonFormat {
   color:black;

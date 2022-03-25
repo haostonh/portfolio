@@ -21,7 +21,7 @@ import '../componentsCSS/NavBar.css';
 const tabsTheme = createMuiTheme({
   palette: {
     primary: {
-      main: '#FFFFFF',
+      main: '#FFFAFA',
     },
     secondary: {
       main: orange[500],

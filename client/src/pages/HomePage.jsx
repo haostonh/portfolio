@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-        <style>{'body { background-color: #D3D3D3 }'}</style>
+        <style>{'body { background-color: #FFFFF0 }'}</style>
       </Helmet>
       <NavBar/>
     </div>

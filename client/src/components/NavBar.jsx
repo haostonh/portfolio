@@ -32,13 +32,14 @@ const tabsTheme = createMuiTheme({
 const navBarButtonStyle = makeStyles(theme => ({
   button: {
     color: "#000000", 
-    fontSize: "30px",
+    fontSize: "20px",
     fontWeight: "500", 
     fontFamily: "'Roboto', sans-serif", 
     marginLeft: '0px',
     marginTop: '0px',
     letterSpacing:"1px",
     "@media (min-width: 426px)": {
+      fontSize: "30px",
       marginLeft: '10px', 
       marginTop: '12px'
     }
@@ -59,9 +60,9 @@ const NavBar = () => {
                 <Button component={Link} to="/portfolio/about" color="primary" 
                 className={classes.button}>About</Button>
                 <Button component={Link} to="/portfolio/projects" color="primary" 
-                style={{ color: "#000000", fontSize: "30px", fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>Projects</Button>
+                className={classes.button}>Projects</Button>
                 <Button component={Link} to="/portfolio/contact" color="primary" 
-                style={{ color: "#000000", fontSize: "30px", fontWeight: "500", fontFamily: "'Roboto', sans-serif", marginLeft: '10px', marginTop: '12px', letterSpacing:"1px"}}>Contact</Button>
+                className={classes.button}>Contact</Button>
                 </ThemeProvider>
             </div>
         </div>

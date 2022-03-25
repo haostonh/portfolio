@@ -14,7 +14,6 @@
 }
 .navButtonBar {
     margin-left: auto;
-    padding-top: 10px;
 }
 .tabsSize {
     font-size: 100px;
@@ -41,22 +40,28 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-    .navButtonBar {
-        margin-left: 0px;
-        padding-top: 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    .customizeNavBar {
-        min-height: 0px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+  .navBarTitle {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 30px;
+  }
+  .navButtonBar {
+      margin-left: 0px;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+  .customizeNavBar {
+      min-height: 0px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
 }
 
 @media screen and (max-width: 425px) {

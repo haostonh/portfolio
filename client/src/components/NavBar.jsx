@@ -58,7 +58,7 @@ const NavBar = () => {
     <ThemeProvider>
         {/*<ToolBar> */}
         <div className="customizeNavBar">
-            <img src={hhlogo} alt={"Haoston Huynh's Logo"}/>
+            <img className="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
             <div className="navButtonBar">
                 <ThemeProvider theme={tabsTheme}>
                 <Button component={Link} to="/portfolio" color="primary" 

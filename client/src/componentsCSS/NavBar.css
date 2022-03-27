@@ -41,6 +41,10 @@
   margin-top: 12px;
   letter-spacing: 1px;
 }
+.navBarHHLogo {
+  width: 128px;
+  height: 128px;
+}
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .navBarTitle {

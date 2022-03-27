@@ -11,7 +11,9 @@ const HomePage = () => {
         <style>{'body { background-color: #FFFFF0 }'}</style>
       </Helmet>
       <NavBar/>
-      <img src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
+      <div className='homepageContainer'>
+        <img src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
+      </div>
     </div>
   );
 };

@@ -42,8 +42,8 @@
   letter-spacing: 1px;
 }
 .navBarHHLogo {
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {

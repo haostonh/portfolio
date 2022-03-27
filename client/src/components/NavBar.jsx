@@ -33,7 +33,7 @@ const tabsTheme = createMuiTheme({
 const navBarButtonStyle = makeStyles(theme => ({
   button: {
     color: "#000000", 
-    fontSize: "30px",
+    fontSize: "25px",
     fontWeight: "500", 
     fontFamily: "'Roboto', sans-serif", 
     marginLeft: '10px',

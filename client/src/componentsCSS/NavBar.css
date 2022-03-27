@@ -31,6 +31,7 @@
     background: #F0FFFF;
     border-bottom-style: solid;
     border-color: black;
+    align-items: center;
 }
 .navBarButtonFormat {
   color:black;

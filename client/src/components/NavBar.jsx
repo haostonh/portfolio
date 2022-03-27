@@ -4,6 +4,7 @@ import { orange } from '@material-ui/core/colors';
 import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom';
 import '../componentsCSS/NavBar.css';
+import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 
 /* Currently in use NavBar */
 /*const background = createMuiTheme({
@@ -57,7 +58,7 @@ const NavBar = () => {
     <ThemeProvider>
         {/*<ToolBar> */}
         <div className="customizeNavBar">
-            <div className="navBarTitle">Haoston Huynh</div>
+            <img src={hhlogo} alt={"Haoston Huynh's Logo"}/>
             <div className="navButtonBar">
                 <ThemeProvider theme={tabsTheme}>
                 <Button component={Link} to="/portfolio" color="primary" 

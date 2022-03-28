@@ -40,21 +40,21 @@ const NavBar = () => {
   const classes = navBarButtonStyle();
   return (
     <ThemeProvider>
-        <div className="customizeNavBar">
-            <img className="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
-            <div className="navButtonBar">
-                <ThemeProvider theme={tabsTheme}>
-                <Button component={Link} to="/portfolio" color="primary" 
-                className={classes.button}>Home</Button>
-                <Button component={Link} to="/portfolio/about" color="primary" 
-                className={classes.button}>About</Button>
-                <Button component={Link} to="/portfolio/projects" color="primary" 
-                className={classes.button}>Projects</Button>
-                <Button component={Link} to="/portfolio/contact" color="primary" 
-                className={classes.button}>Contact</Button>
-                </ThemeProvider>
-            </div>
+      <div className="customizeNavBar">
+        <img className="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
+        <div className="navButtonBar">
+          <ThemeProvider theme={tabsTheme}>
+            <Button component={Link} to="/portfolio" color="primary" 
+            className={classes.button}>Home</Button>
+            <Button component={Link} to="/portfolio/about" color="primary" 
+            className={classes.button}>About</Button>
+            <Button component={Link} to="/portfolio/projects" color="primary" 
+            className={classes.button}>Projects</Button>
+            <Button component={Link} to="/portfolio/contact" color="primary" 
+            className={classes.button}>Contact</Button>
+          </ThemeProvider>
         </div>
+      </div>
     </ThemeProvider>
   )
 }

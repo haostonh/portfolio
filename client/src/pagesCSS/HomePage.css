@@ -1,12 +1,43 @@
 .homepageContainer {
   display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.homepageHHPic {
+  margin: 20px;
+}
+.homepageIntroTitle {
   margin: 20px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
+  .homepageContainer {
+    flex-direction: column;
+  }
+  .homepageHHPic {
+    align-self: center;
+  }
+  .homepageIntroTitle {
     
+  } 
+  .homepageTextBody {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    
+  .homepageContainer {
+    flex-direction: column;
+  }
+  .homepageHHPic {
+    align-self: center;
+    margin: 0px;
+  }
+  .homepageIntroTitle {
+    text-align: center;
+    margin: 0px;
+  } 
+  .homepageTextBody {
+    margin-top: 20px;
+  }
 }

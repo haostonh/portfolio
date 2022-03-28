@@ -12,9 +12,9 @@ const HomePage = () => {
       </Helmet>
       <NavBar/>
       <div className='homepageContainer'>
-        <img src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
-        <div>
-          <h1>Welcome to Haoston Huynh's Page!</h1>
+        <img className='homepageHHPic' src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
+        <div className='homepageTextBody'>
+          <h1 className='homepageIntroTitle'>Welcome to Haoston Huynh's Page!</h1>
         </div>
       </div>
     </div>

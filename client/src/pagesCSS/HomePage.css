@@ -32,10 +32,13 @@
   .homepageHHPic {
     align-self: center;
     margin: 0px;
+    width: 60%;
+    height: 60%;
   }
   .homepageIntroTitle {
     text-align: center;
     margin: 0px;
+    font-size: 22px;
   } 
   .homepageTextBody {
     margin-top: 20px;

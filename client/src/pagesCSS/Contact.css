@@ -26,3 +26,13 @@
   margin-left: 15px;
   font-size: 30px;
 }
+
+@media screen and (max-width: 425px) {
+  .contactTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+}

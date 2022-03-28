@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: row;
   min-height: 0px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .navBarHHLogo {
   height: 64px;

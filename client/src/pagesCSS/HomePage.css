@@ -19,6 +19,7 @@
   }
   .homepageIntroTitle {
     text-align: center;
+    margin: 0px;
   } 
   .homepageTextBody {
     margin-top: 20px;

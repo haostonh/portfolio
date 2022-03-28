@@ -1,17 +1,17 @@
 .customizeNavBar {
-  min-height: 0px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 24px;
-  padding-right: 24px;
+  align-items: center;
   background: #F0FFFF;
   border-bottom-style: solid;
   border-color: black;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-height: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .navBarHHLogo {
-  width: 64px;
   height: 64px;
+  width: 64px;
 }
 .navButtonBar {
   margin-left: auto;
@@ -19,39 +19,39 @@
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .customizeNavBar {
-    min-height: 0px;
     display: flex;
     flex-direction: column;
+    min-height: 0px;
     padding-left: 0px;
     padding-right: 0px;
 }
   .navButtonBar {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 425px) {
   .customizeNavBar {
-    min-height: 0px;
     display: flex;
     flex-direction: column;
+    min-height: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
   .navButtonBar {
-    margin-left: 0px;
-    padding-top: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0px;
+    padding-top: 0px;
     text-align: center;
   }
 }

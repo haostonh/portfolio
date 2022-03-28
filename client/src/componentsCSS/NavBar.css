@@ -1,6 +1,3 @@
-.navButtonBar {
-    margin-left: auto;
-}
 .customizeNavBar {
     min-height: 0px;
     display: flex;
@@ -15,6 +12,9 @@
 .navBarHHLogo {
   width: 64px;
   height: 64px;
+}
+.navButtonBar {
+  margin-left: auto;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {

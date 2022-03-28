@@ -18,6 +18,13 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
+  .customizeNavBar {
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
   .navButtonBar {
       margin-left: 20px;
       margin-right: 20px;
@@ -28,16 +35,16 @@
       justify-content: center;
       text-align: center;
   }
-  .customizeNavBar {
-      min-height: 0px;
-      display: flex;
-      flex-direction: column;
-      padding-left: 0px;
-      padding-right: 0px;
-  }
 }
 
 @media screen and (max-width: 425px) {
+  .customizeNavBar {
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .navButtonBar {
     margin-left: 0px;
     padding-top: 0px;
@@ -46,12 +53,5 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-  }
-  .customizeNavBar {
-    min-height: 0px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }

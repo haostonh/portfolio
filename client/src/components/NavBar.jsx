@@ -6,19 +6,6 @@ import {Link} from 'react-router-dom';
 import '../componentsCSS/NavBar.css';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 
-/* Currently in use NavBar */
-/*const background = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#000000',
-    },
-    secondary: {
-      main: orange[500],
-    },
-  },
-  shadows: ["none"]
-});*/
-
 const tabsTheme = createMuiTheme({
   palette: {
     primary: {

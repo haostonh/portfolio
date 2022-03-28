@@ -5,6 +5,7 @@
 }
 .homepageHHPic {
   border: solid;
+  border-color: black;
   margin: 20px;
 }
 .homepageIntroTitle {

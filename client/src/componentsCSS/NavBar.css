@@ -16,12 +16,6 @@
 .navButtonBar {
     margin-left: auto;
 }
-.tabsSize {
-    font-size: 100px;
-}
-.spacers {
-    padding-right: 10px;
-}
 .customizeNavBar {
     min-height: 0px;
     display: flex;

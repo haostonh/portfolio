@@ -36,15 +36,15 @@ const navBarButtonStyle = makeStyles(theme => ({
     fontSize: "25px",
     fontWeight: "500", 
     fontFamily: "'Roboto', sans-serif", 
-    marginLeft: '10px',
-    letterSpacing:"1px",
+    marginLeft: "5px",
+    marginRight: "5px",
     "@media (min-width: 426px) and (max-width: 1024px)": {
       fontSize: "25px",
-      marginTop: '0px'
     },
     "@media (max-width:425px)": {
-      fontSize: "20px",
-      marginTop: '0px'
+      fontSize: "15px",
+      marginLeft: "0px",
+      marginRight: "0px",
     }
   }
 }));

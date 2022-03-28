@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import { orange } from '@material-ui/core/colors';
+import { grey } from '@material-ui/core/colors';
 import { createTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import '../componentsCSS/NavBar.css';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
@@ -12,7 +12,7 @@ const tabsTheme = createTheme({
       main: '#FFFAFA',
     },
     secondary: {
-      main: orange[500],
+      main: grey[50],
     },
   },
 });

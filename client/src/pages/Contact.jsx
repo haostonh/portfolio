@@ -17,19 +17,19 @@ const Contact = () => {
       <div className='contactFont'>
         <h1 className='contactTitle'>GET IN TOUCH</h1>
         <div className='contactPictureandTextBox'>
-          <img className='contactPictureFormat' src={linkedinicon} alt={"LinkedIn Icon"} width='64' height='64'/>
+          <img className='contactPictureFormat' src={linkedinicon} alt={"LinkedIn Icon"}/>
           <a className='contactTextFormat' href='https://www.linkedin.com/in/haoston-huynh/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
         </div>
         <div className='contactPictureandTextBox'>
-          <img className='contactPictureFormat' src={githubicon} alt={"GitHub Icon"} width='64' height='64'/>
+          <img className='contactPictureFormat' src={githubicon} alt={"GitHub Icon"}/>
           <a className='contactTextFormat' href='https://github.com/haostonh' target='_blank' rel='noopener noreferrer'>GitHub</a>
         </div>
         <div className='contactPictureandTextBox'>
-          <img className='contactPictureFormat' src={leetcodeicon} alt={"LeetCode Icon"} width='64' height='64'/>
+          <img className='contactPictureFormat' src={leetcodeicon} alt={"LeetCode Icon"}/>
           <a className='contactTextFormat' href='https://leetcode.com/haostonh/' target='_blank' rel='noopener noreferrer'>LeetCode</a>
         </div>
         <div className='contactPictureandTextBox'>
-          <img className='contactPictureFormat' src={hackerrankicon} alt={"HackerRank Icon"} width='64' height='64'/>
+          <img className='contactPictureFormat' src={hackerrankicon} alt={"HackerRank Icon"}/>
           <a className='contactTextFormat' href='https://www.hackerrank.com/haostonh' target='_blank' rel='noopener noreferrer'>HackerRank</a>
         </div>
       </div>

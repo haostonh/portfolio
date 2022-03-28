@@ -40,7 +40,6 @@ const NavBar = () => {
   const classes = navBarButtonStyle();
   return (
     <ThemeProvider>
-        {/*<ToolBar> */}
         <div className="customizeNavBar">
             <img className="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
             <div className="navButtonBar">
@@ -56,7 +55,6 @@ const NavBar = () => {
                 </ThemeProvider>
             </div>
         </div>
-        {/*</ToolBar> */}
     </ThemeProvider>
   )
 }

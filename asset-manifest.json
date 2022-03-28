@@ -1,15 +1,17 @@
 {
-  "main.css": "/portfolio/static/css/main.4a3a9e96.chunk.css",
-  "main.js": "/portfolio/static/js/main.c3c779fc.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.c3c779fc.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.f2ef4934.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.f2ef4934.js.map",
-  "static/js/2.403cf013.chunk.js": "/portfolio/static/js/2.403cf013.chunk.js",
-  "static/js/2.403cf013.chunk.js.map": "/portfolio/static/js/2.403cf013.chunk.js.map",
-  "static/js/3.d795ef33.chunk.js": "/portfolio/static/js/3.d795ef33.chunk.js",
-  "static/js/3.d795ef33.chunk.js.map": "/portfolio/static/js/3.d795ef33.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.20d38ad0.chunk.css",
+  "main.js": "/portfolio/static/js/main.67699532.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.67699532.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.a1a0d842.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.a1a0d842.js.map",
+  "static/js/2.0eb9839d.chunk.js": "/portfolio/static/js/2.0eb9839d.chunk.js",
+  "static/js/2.0eb9839d.chunk.js.map": "/portfolio/static/js/2.0eb9839d.chunk.js.map",
+  "static/js/3.cacba865.chunk.js": "/portfolio/static/js/3.cacba865.chunk.js",
+  "static/js/3.cacba865.chunk.js.map": "/portfolio/static/js/3.cacba865.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.016798dc90a757f0bad095be69e3e0e6.js": "/portfolio/precache-manifest.016798dc90a757f0bad095be69e3e0e6.js",
+  "precache-manifest.e18eef4783b711cfe2690f63e066185f.js": "/portfolio/precache-manifest.e18eef4783b711cfe2690f63e066185f.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.4a3a9e96.chunk.css.map": "/portfolio/static/css/main.4a3a9e96.chunk.css.map"
+  "static/css/main.20d38ad0.chunk.css.map": "/portfolio/static/css/main.20d38ad0.chunk.css.map",
+  "static/media/HH-Logo-Transparent-576px.png": "/portfolio/static/media/HH-Logo-Transparent-576px.8f98256a.png",
+  "static/media/Haoston_Huynh_Profile_Picture.jpg": "/portfolio/static/media/Haoston_Huynh_Profile_Picture.69626991.jpg"
 }

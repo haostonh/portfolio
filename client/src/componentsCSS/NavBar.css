@@ -1,4 +1,4 @@
-.customizeNavBar {
+#customizeNavBar {
   align-items: center;
   background: #F0FFFF;
   border-bottom-style: solid;
@@ -9,11 +9,11 @@
   padding-left: 25px;
   padding-right: 25px;
 }
-.navBarHHLogo {
+#navBarHHLogo {
   height: 64px;
   width: 64px;
 }
-.navButtonBar {
+#navButtonBar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,23 +23,23 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  .customizeNavBar {
+  #customizeNavBar {
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
 }
-  .navButtonBar {
+  #navButtonBar {
     margin: auto;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .customizeNavBar {
+  #customizeNavBar {
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
   }
-  .navButtonBar {
+  #navButtonBar {
     margin: auto;
   }
 }

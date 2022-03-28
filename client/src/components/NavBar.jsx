@@ -9,10 +9,10 @@ import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 const tabsTheme = createTheme({
   palette: {
     primary: {
-      main: '#FFFAFA',
+      main: '#000000',
     },
     secondary: {
-      main: grey[50],
+      main: grey[900],
     },
   },
 });

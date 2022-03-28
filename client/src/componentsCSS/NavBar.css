@@ -1,13 +1,13 @@
 .customizeNavBar {
-    min-height: 0px;
-    display: flex;
-    flex-direction: row;
-    padding-left: 24px;
-    padding-right: 24px;
-    background: #F0FFFF;
-    border-bottom-style: solid;
-    border-color: black;
-    align-items: center;
+  min-height: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #F0FFFF;
+  border-bottom-style: solid;
+  border-color: black;
+  align-items: center;
 }
 .navBarHHLogo {
   width: 64px;
@@ -26,14 +26,14 @@
     padding-right: 0px;
 }
   .navButtonBar {
-      margin-left: 20px;
-      margin-right: 20px;
-      padding-top: 0px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 }
 

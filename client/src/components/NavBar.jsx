@@ -19,10 +19,10 @@ const tabsTheme = createTheme({
 
 const navBarButtonStyle = makeStyles(theme => ({
   button: {
-    color: "#000000", 
+    color: "#000000",
+    fontFamily: "'Roboto', sans-serif", 
     fontSize: "25px",
     fontWeight: "500", 
-    fontFamily: "'Roboto', sans-serif", 
     marginLeft: "5px",
     marginRight: "5px",
     "@media (min-width: 426px) and (max-width: 1024px)": {

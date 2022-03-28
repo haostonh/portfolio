@@ -14,7 +14,12 @@
   width: 64px;
 }
 .navButtonBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
+  text-align: center;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
@@ -24,14 +29,7 @@
     padding-right: 0px;
 }
   .navButtonBar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
-    text-align: center;
+    margin: auto;
   }
 }
 
@@ -42,12 +40,6 @@
     padding-right: 0px;
   }
   .navButtonBar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 0px;
-    padding-top: 0px;
-    text-align: center;
+    margin: auto;
   }
 }

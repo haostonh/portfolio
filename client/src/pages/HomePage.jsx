@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import '../pagesCSS/HomePage.css';
 import NavBar from '../components/NavBar';
 import PortfolioHelmet from '../components/PortfolioHelmet';

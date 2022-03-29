@@ -11,14 +11,14 @@ const NavBarButton = props => {
     fontWeight: "500", 
     marginLeft: "5px",
     marginRight: "5px",
-    "@media (min-width: 426px) and (max-width: 1024px)": {
+    '@media (min-width: 426px) and (max-width: 1024px)': {
       fontSize: "25px",
     },
-    "@media (max-width:425px)": {
+    '@media (max-width: 425px)': {
       fontSize: "15px",
       marginLeft: "0px",
       marginRight: "0px",
-    }
+    },
   }}>{props.text}</Button>
 }
 

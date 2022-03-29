@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import '../pagesCSS/Contact.css';
 import NavBar from '../components/NavBar';
+import PortfolioHelmet from '../components/PortfolioHelmet';
 import linkedinicon from '../images/linkedin-icon.jpg';
 import githubicon from '../images/GitHub-Mark-64px.png';
 import leetcodeicon from '../images/LeetCode-Icon-Square.png';
@@ -10,9 +11,7 @@ import hackerrankicon from '../images/HackerRank-Icon-480px.png';
 const Contact = () => {
   return (
     <div>
-      <Helmet>
-        <style>{'body { background-color: #FFFFF0 }'}</style>
-      </Helmet>
+      <PortfolioHelmet/>
       <NavBar/>
       <div className='contactFont'>
         <h1 className='contactTitle'>GET IN TOUCH</h1>

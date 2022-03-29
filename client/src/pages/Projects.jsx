@@ -2,13 +2,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import '../pagesCSS/Projects.css';
 import NavBar from '../components/NavBar';
+import PortfolioHelmet from '../components/PortfolioHelmet';
 
 const Projects = () => {
   return (
     <div>
-      <Helmet>
-        <style>{'body { background-color: #FFFFF0 }'}</style>
-      </Helmet>
+      <PortfolioHelmet/>
       <NavBar/>
       <div className='projectsFont'>
         <h1 className='yearTitle'>2022</h1>

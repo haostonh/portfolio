@@ -37,12 +37,12 @@ const navBarButtonStyle = makeStyles(theme => ({
 }));
 
 const NavBar = () => {
-  const classes = navBarButtonStyle();
+  {/*const classes = navBarButtonStyle();*/}
   return (
     <ThemeProvider>
       <div id="customizeNavBar">
         <img id="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
-        <div id="navButtonBar">
+        {/*<div id="navButtonBar">
           <ThemeProvider theme={tabsTheme}>
             <Button component={Link} to="/portfolio" color="primary" 
             className={classes.button}>Home</Button>
@@ -53,7 +53,7 @@ const NavBar = () => {
             <Button component={Link} to="/portfolio/contact" color="primary" 
             className={classes.button}>Contact</Button>
           </ThemeProvider>
-        </div>
+        </div>*/}
       </div>
     </ThemeProvider>
   )

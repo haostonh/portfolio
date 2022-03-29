@@ -10,25 +10,6 @@
   font-size: 40px;
 }
 
-.contactPictureandTextBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.contactPictureFormat {
-  margin-right: 15px;
-  width: 64px;
-  height: 64px;
-}
-
-.contactTextFormat {
-  margin-left: 15px;
-  font-size: 30px;
-}
-
 @media screen and (max-width: 425px) {
   .contactTitle {
     margin-top: 20px;
@@ -36,14 +17,5 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 25px;
-  }
-  .contactPictureFormat {
-    margin-right: 10px;
-    width: 48px;
-    height: 48px;
-  }
-  .contactTextFormat {
-    margin-left: 10px;
-    font-size: 20px;
   }
 }

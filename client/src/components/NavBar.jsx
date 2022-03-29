@@ -5,7 +5,7 @@ import '../componentsCSS/NavBar.css';
 import NavBarButton from './NavBarButton';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 
-const tabsTheme = createTheme({
+const navBarTheme = createTheme({
   palette: {
     primary: {
       main: '#000000',
@@ -18,16 +18,15 @@ const tabsTheme = createTheme({
 
 const NavBar = () => {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={navBarTheme}>
       <div id="customizeNavBar">
         <img id="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
         <div id="navButtonBar">
-          <ThemeProvider theme={tabsTheme}>
             <NavBarButton to="/portfolio" text="Home"/>
             <NavBarButton to="/portfolio/about" text="About"/>
             <NavBarButton to="/portfolio/projects" text="Projects"/>
             <NavBarButton to="/portfolio/contact" text="Contact"/>
-          </ThemeProvider>
+          
         </div>
       </div>
     </ThemeProvider>

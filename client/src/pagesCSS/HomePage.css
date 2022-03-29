@@ -1,28 +1,40 @@
 .homepageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 20px;
 }
+
 .homepageHHPic {
   border: solid;
   border-color: black;
   margin: 20px;
 }
+
 .homepageIntroTitle {
   margin: 20px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .homepageContainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .homepageHHPic {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .homepageIntroTitle {
     text-align: center;
     margin: 0px;
-  } 
+  }
   .homepageTextBody {
     margin-top: 20px;
   }
@@ -30,10 +42,15 @@
 
 @media screen and (max-width: 425px) {
   .homepageContainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .homepageHHPic {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin: 0px;
     width: 60%;
     height: 60%;
@@ -42,8 +59,9 @@
     text-align: center;
     margin: 0px;
     font-size: 22px;
-  } 
+  }
   .homepageTextBody {
     margin-top: 20px;
   }
 }
+/*# sourceMappingURL=HomePage.css.map */

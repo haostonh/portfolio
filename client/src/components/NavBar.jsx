@@ -19,7 +19,6 @@ const tabsTheme = createTheme({
 });
 
 const NavBar = () => {
-  {/*const classes = navBarButtonStyle();*/}
   return (
     <ThemeProvider>
       <div id="customizeNavBar">
@@ -30,14 +29,6 @@ const NavBar = () => {
             <NavBarButton to="/portfolio/about" text="About"/>
             <NavBarButton to="/portfolio/projects" text="Projects"/>
             <NavBarButton to="/portfolio/contact" text="Contact"/>
-            {/*<Button component={Link} to="/portfolio" color="primary" 
-            className={classes.button}>Home</Button>
-            <Button component={Link} to="/portfolio/about" color="primary" 
-            className={classes.button}>About</Button>
-            <Button component={Link} to="/portfolio/projects" color="primary" 
-            className={classes.button}>Projects</Button>
-            <Button component={Link} to="/portfolio/contact" color="primary" 
-            className={classes.button}>Contact</Button>*/}
           </ThemeProvider>
         </div>
       </div>

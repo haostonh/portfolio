@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import { grey } from '@material-ui/core/colors';
-import { createTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import Button from '@mui/material/Button';
+import { grey } from '@mui/material/colors';
+import { createTheme, ThemeProvider, makeStyles } from '@mui/material/styles';
 import '../componentsCSS/NavBar.css';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 

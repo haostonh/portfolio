@@ -5,18 +5,19 @@
 }
 
 #contactTitle {
+  font-size: 40px;
   margin-bottom: 40px;
   margin-top: 40px;
-  font-size: 40px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 425px) {
   #contactTitle {
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 25px;
   }
 }
 /*# sourceMappingURL=Contact.css.map */

@@ -1,6 +1,7 @@
 $azure-color: #F0FFFF
 $logo-size: 64px
 $padding: 25px
+$no-padding: 0px
 
 #customizeNavBar
   align-items: center
@@ -26,15 +27,15 @@ $padding: 25px
 @media screen and (min-width: 426px) and (max-width: 1024px)
   #customizeNavBar
     flex-direction: column
-    padding-left: 0px
-    padding-right: 0px
+    padding-left: $no-padding
+    padding-right: $no-padding
   #navButtonBar
     margin: auto
 
 @media screen and (max-width: 425px)
   #customizeNavBar
     flex-direction: column
-    padding-left: 0px
-    padding-right: 0px
+    padding-left: $no-padding
+    padding-right: $no-padding
   #navButtonBar
     margin: auto

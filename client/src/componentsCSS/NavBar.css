@@ -1,30 +1,50 @@
 #customizeNavBar {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #F0FFFF;
   border-bottom-style: solid;
   border-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   min-height: 0px;
   padding-left: 25px;
   padding-right: 25px;
 }
+
 #navBarHHLogo {
   height: 64px;
   width: 64px;
 }
+
 #navButtonBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: auto;
   text-align: center;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   #customizeNavBar {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -35,7 +55,10 @@
 
 @media screen and (max-width: 425px) {
   #customizeNavBar {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -43,3 +66,4 @@
     margin: auto;
   }
 }
+/*# sourceMappingURL=NavBar.css.map */

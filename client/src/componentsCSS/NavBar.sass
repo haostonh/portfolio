@@ -1,0 +1,40 @@
+$azure-color: #F0FFFF
+$logo-size: 64px
+$padding: 25px
+
+#customizeNavBar
+  align-items: center
+  background: $azure-color
+  border-bottom-style: solid
+  border-color: black
+  display: flex
+  flex-direction: row
+  min-height: 0px
+  padding-left: $padding
+  padding-right: $padding
+#navBarHHLogo
+  height: $logo-size
+  width: $logo-size
+#navButtonBar
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  margin-left: auto
+  text-align: center
+
+@media screen and (min-width: 426px) and (max-width: 1024px)
+  #customizeNavBar
+    flex-direction: column
+    padding-left: 0px
+    padding-right: 0px
+  #navButtonBar
+    margin: auto
+
+@media screen and (max-width: 425px)
+  #customizeNavBar
+    flex-direction: column
+    padding-left: 0px
+    padding-right: 0px
+  #navButtonBar
+    margin: auto

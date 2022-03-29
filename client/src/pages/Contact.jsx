@@ -13,8 +13,8 @@ const Contact = () => {
     <div>
       <PortfolioHelmet/>
       <NavBar/>
-      <div className='contactFont'>
-        <h1 className='contactTitle'>GET IN TOUCH</h1>
+      <div id='contactFont'>
+        <h1 id='contactTitle'>GET IN TOUCH</h1>
         <IconAndTextBox src={linkedinicon} alt={'LinkedIn Icon'} text='LinkedIn' href='https://www.linkedin.com/in/haoston-huynh/'/>
         <IconAndTextBox src={githubicon} alt={'GitHub Icon'} text='GitHub' href='https://github.com/haostonh'/>
         <IconAndTextBox src={leetcodeicon} alt={'LeetCode Icon'} text='LeetCode' href='https://leetcode.com/haostonh/'/>

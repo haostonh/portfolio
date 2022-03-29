@@ -22,11 +22,10 @@ const NavBar = () => {
       <div id="customizeNavBar">
         <img id="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
         <div id="navButtonBar">
-            <NavBarButton to="/portfolio" text="Home"/>
-            <NavBarButton to="/portfolio/about" text="About"/>
-            <NavBarButton to="/portfolio/projects" text="Projects"/>
-            <NavBarButton to="/portfolio/contact" text="Contact"/>
-          
+          <NavBarButton to="/portfolio" text="Home"/>
+          <NavBarButton to="/portfolio/about" text="About"/>
+          <NavBarButton to="/portfolio/projects" text="Projects"/>
+          <NavBarButton to="/portfolio/contact" text="Contact"/>
         </div>
       </div>
     </ThemeProvider>

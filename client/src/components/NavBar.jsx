@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@mui/material/Button';
 import { grey } from '@mui/material/colors';
-import { createTheme, ThemeProvider, makeStyles } from '@mui/material/styles';
+import { createTheme, ThemeProvider} from '@mui/material/styles';
 import '../componentsCSS/NavBar.css';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 
@@ -17,7 +17,7 @@ const tabsTheme = createTheme({
   },
 });
 
-const navBarButtonStyle = makeStyles(theme => ({
+{/*const navBarButtonStyle = makeStyles(theme => ({
   button: {
     color: "#000000",
     fontFamily: "'Roboto', sans-serif", 
@@ -34,7 +34,7 @@ const navBarButtonStyle = makeStyles(theme => ({
       marginRight: "0px",
     }
   }
-}));
+}));*/}
 
 const NavBar = () => {
   {/*const classes = navBarButtonStyle();*/}

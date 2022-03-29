@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import { grey } from '@mui/material/colors';
 import { createTheme, ThemeProvider} from '@mui/material/styles';
 import '../componentsCSS/NavBar.css';
+import NavBarButton from 'NavBarButton';
 import hhlogo from '../images/HH-Logo-Transparent-576px.png';
 
 const tabsTheme = createTheme({
@@ -23,18 +24,18 @@ const NavBar = () => {
     <ThemeProvider>
       <div id="customizeNavBar">
         <img id="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
-        {/*<div id="navButtonBar">
+        <div id="navButtonBar">
           <ThemeProvider theme={tabsTheme}>
-            <Button component={Link} to="/portfolio" color="primary" 
+            {/*<Button component={Link} to="/portfolio" color="primary" 
             className={classes.button}>Home</Button>
             <Button component={Link} to="/portfolio/about" color="primary" 
             className={classes.button}>About</Button>
             <Button component={Link} to="/portfolio/projects" color="primary" 
             className={classes.button}>Projects</Button>
             <Button component={Link} to="/portfolio/contact" color="primary" 
-            className={classes.button}>Contact</Button>
+            className={classes.button}>Contact</Button>*/}
           </ThemeProvider>
-        </div>*/}
+        </div>
       </div>
     </ThemeProvider>
   )

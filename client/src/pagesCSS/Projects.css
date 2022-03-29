@@ -23,16 +23,16 @@ li {
   font-size: 20px;
 }
 
-.projectTitle {
-  margin-left: 40px;
-}
-
 .projectsFont {
   font-family: 'Roboto', sans-serif;
 }
 
 .projectsProjectContainer {
   margin-bottom: 30px;
+}
+
+.projectTitle {
+  margin-left: 40px;
 }
 
 .yearTitle {
@@ -46,18 +46,19 @@ li {
 }
 
 @media screen and (max-width: 425px) {
-  .yearTitle {
-    font-size: 25px;
-    margin-right: 20px;
+  .projectBody {
+    margin-left: 0px;
+    font-size: 15px;
+    margin-right: 15px;
   }
   .projectTitle {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
   }
-  .projectBody{
-    margin-left: 0px;
-    font-size: 15px;
-    margin-right: 15px;
+  .yearTitle {
+    font-size: 25px;
+    margin-right: 20px;
   }
 }
+/*# sourceMappingURL=Projects.css.map */

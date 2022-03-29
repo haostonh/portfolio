@@ -1,0 +1,45 @@
+$margin-xlarge: 60px
+$margin-large: 40px
+$margin-medlarge: 30px
+$margin-medium: 20px
+$margin-smallmed: 15px
+$margin-xsmall: 5px
+  
+a:link 
+  text-decoration: none
+a:visited 
+  text-decoration: none
+a:hover 
+  text-decoration: underline
+a:active
+  text-decoration: underline
+li
+  margin-bottom: $margin-xsmall
+.projectBody 
+  margin-left: $margin-xlarge
+  font-size: 20px
+.projectsFont
+  font-family: 'Roboto', sans-serif
+.projectsProjectContainer
+  margin-bottom: $margin-medlarge
+.projectTitle 
+  margin-left: $margin-large
+.yearTitle
+  margin-left: $margin-medium
+
+@media screen and (min-width: 426px) and (max-width: 1024px)
+  .projectsFont
+    margin-right: $margin-medium
+
+@media screen and (max-width: 425px)
+  .projectBody
+    margin-left: 0px
+    font-size: 15px
+    margin-right: $margin-smallmed
+  .projectTitle
+    margin-left: $margin-medium
+    margin-right: $margin-medium
+    font-size: 20px
+  .yearTitle 
+    font-size: 25px
+    margin-right: $margin-medium

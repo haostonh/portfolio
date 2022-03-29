@@ -26,10 +26,10 @@ const NavBar = () => {
         <img id="navBarHHLogo" src={hhlogo} alt={"Haoston Huynh's Logo"}/>
         <div id="navButtonBar">
           <ThemeProvider theme={tabsTheme}>
-            {/*<NavBarButton to="/portfolio" text="Home"/>
+            <NavBarButton to="/portfolio" text="Home"/>
             <NavBarButton to="/portfolio/about" text="About"/>
             <NavBarButton to="/portfolio/projects" text="Projects"/>
-            <NavBarButton to="/portfolio/contact" text="Contact"/>*/}
+            <NavBarButton to="/portfolio/contact" text="Contact"/>
             {/*<Button component={Link} to="/portfolio" color="primary" 
             className={classes.button}>Home</Button>
             <Button component={Link} to="/portfolio/about" color="primary" 

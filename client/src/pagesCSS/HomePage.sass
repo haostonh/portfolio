@@ -1,39 +1,39 @@
 $margin-medium: 20px
 $pic-percent-small: 60%
 
-.homepageContainer
+#homepageContainer
   display: flex
   flex-direction: row
   margin: $margin-medium
-.homepageHHPic
+#homepageHHPic
   border: solid
   border-color: black
   margin: $margin-medium
-.homepageIntroTitle 
+#homepageIntroTitle 
   margin: $margin-medium
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
-  .homepageContainer 
+  #homepageContainer 
     flex-direction: column
-  .homepageHHPic 
+  #homepageHHPic 
     align-self: center
-  .homepageIntroTitle 
+  #homepageIntroTitle 
     text-align: center
     margin: 0px
-  .homepageTextBody
+  #homepageTextBody
     margin-top: $margin-medium
 
 @media screen and (max-width: 425px)
-  .homepageContainer 
+  #homepageContainer 
     flex-direction: column
-  .homepageHHPic
+  #homepageHHPic
     align-self: center
     margin: 0px
     width: $pic-percent-small
     height: $pic-percent-small
-  .homepageIntroTitle
+  #homepageIntroTitle
     text-align: center
     margin: 0px
     font-size: 22px
-  .homepageTextBody 
+  #homepageTextBody 
     margin-top: $margin-medium

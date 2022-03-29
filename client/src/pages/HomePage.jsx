@@ -9,10 +9,10 @@ const HomePage = () => {
     <div>
       <PortfolioHelmet/>
       <NavBar/>
-      <div className='homepageContainer'>
-        <img className='homepageHHPic' src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
-        <div className='homepageTextBody'>
-          <h1 className='homepageIntroTitle'>Welcome to Haoston Huynh's Page!</h1>
+      <div id='homepageContainer'>
+        <img id='homepageHHPic' src={profile} alt={"Haoston Huynh's Profile"} width='256' height='384'/>
+        <div id='homepageTextBody'>
+          <h1 id='homepageIntroTitle'>Welcome to Haoston Huynh's Page!</h1>
         </div>
       </div>
     </div>

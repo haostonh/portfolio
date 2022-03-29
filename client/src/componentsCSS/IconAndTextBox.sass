@@ -1,3 +1,8 @@
+$icon-size-regular: 64px
+$icon-size-small: 48px
+$between-spacing-regular: 15px
+$between-spacing-small: 10px
+
 .componentIconTextBox
   display: flex
   flex-direction: row
@@ -5,18 +10,18 @@
   align-items: center
   margin-bottom: 30px
 .componentIconFormat
-  margin-right: 15px
-  width: 64px
-  height: 64px
+  margin-right: $between-spacing-regular
+  width: $icon-size-regular
+  height: $icon-size-regular
 .componentTextFormat
-  margin-left: 15px
+  margin-left: $between-spacing-regular
   font-size: 30px
 
 @media screen and (max-width: 425px) 
   .componentIconFormat
-    margin-right: 10px
-    width: 48px
-    height: 48px
+    margin-right: $between-spacing-small
+    width: $icon-size-small
+    height: $icon-size-small
   .componentTextFormat
-    margin-left: 10px
+    margin-left: $between-spacing-small
     font-size: 20px

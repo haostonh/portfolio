@@ -1,6 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import Button from '@mui/material/Button';
 import { grey } from '@mui/material/colors';
 import { createTheme, ThemeProvider} from '@mui/material/styles';
 import '../componentsCSS/NavBar.css';

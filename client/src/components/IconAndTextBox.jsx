@@ -1,5 +1,5 @@
 import React from "react";
-import '../components/IconAndTextBox.css';
+import '../componentsCSS/IconAndTextBox.css';
 
 const IconAndTextBox = props => {
   return (

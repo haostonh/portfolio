@@ -6,4 +6,5 @@
 3. `cd` into the client folder
 4. run `npm install` to fetch the node modules
 5. run `npm start` to run development build
+
 Note: the production build can be found in the gh-pages branch

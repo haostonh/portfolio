@@ -5,9 +5,10 @@ import PortfolioHelmet from '../components/PortfolioHelmet';
 
 const About = () => {
   return (
-    <div>
+    <div className='aboutFont'>
       <PortfolioHelmet/>
       <NavBar/>
+      <h1 className='aboutHeaderTitle'>Education</h1>
     </div>
   );
 };

@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar';
 import PortfolioHelmet from '../components/PortfolioHelmet';
 import BankingSystem from '../projects/2022/BankingSystem';
 import TicTacToe from '../projects/2022/TicTacToe';
-import GitHubButton from '../components/HHLinkButton';
 
 const Projects = () => {
   return (
@@ -15,7 +14,6 @@ const Projects = () => {
         <h1 className='yearTitle'>2022</h1>
         <BankingSystem/>
         <TicTacToe/>
-        <GitHubButton/>
       </div>
     </div>
   );

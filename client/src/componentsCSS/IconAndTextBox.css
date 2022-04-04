@@ -24,6 +24,9 @@
 #componentTextFormat {
   margin-left: 15px;
   font-size: 30px;
+  border: solid;
+  border-color: black;
+  color: black;
 }
 
 @media screen and (max-width: 425px) {

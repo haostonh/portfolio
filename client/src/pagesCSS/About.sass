@@ -2,24 +2,24 @@ $margin-large: 40px
 $margin-medium: 20px
 $margin-small: 10px
 
-.aboutHeaderTitle
-  margin-left: $margin-medium
-#aboutFont
-  font-family: 'Roboto', sans-serif
 .aboutBody
   margin-left:  $margin-large
   margin-bottom: $margin-small
   font-size: 20px
+#aboutFont
+  font-family: 'Roboto', sans-serif
+.aboutHeaderTitle
+  margin-left: $margin-medium
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
   #aboutFont
     margin-right: $margin-medium
 
 @media screen and (max-width: 425px)
-  .aboutHeaderTitle 
-    font-size: 25px
-    margin-right: $margin-medium
   .aboutBody
     margin-left:  0px
     margin-bottom: $margin-small
     font-size: 15px
+  .aboutHeaderTitle 
+    font-size: 25px
+    margin-right: $margin-medium

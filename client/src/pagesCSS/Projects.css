@@ -75,7 +75,8 @@ li {
     margin-right: 0px;
   }
   .projectImage {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

@@ -9,6 +9,10 @@ const HHLinkButton = props => {
       color: 'black',
       border: 'solid',
       borderColor: 'black',
+      paddingTop: '5px',
+      paddingBottom: '5px',
+      paddingLeft: '10px',
+      paddingRight: '10px',
     }}>{props.text}</Button>
   )
 }

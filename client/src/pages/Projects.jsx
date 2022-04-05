@@ -10,7 +10,7 @@ const Projects = () => {
     <div>
       <PortfolioHelmet/>
       <NavBar/>
-      <div className='projectsFont'>
+      <div id='projectsFont'>
         <h1 className='yearTitle'>2022</h1>
         <BankingSystem/>
         <TicTacToe/>

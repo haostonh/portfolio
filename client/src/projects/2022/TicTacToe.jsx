@@ -1,5 +1,6 @@
 import React from "react";
 import '../../pagesCSS/Projects.css';
+import HHLinkButton from "../../components/HHLinkButton";
 
 const TicTacToe = () => {
   return (
@@ -7,7 +8,7 @@ const TicTacToe = () => {
       <h2 className='projectTitle'>Tic-Tac-Toe (Jan 2022 - Mar 2022)</h2>
       <ul className='projectBody'>
         <li>
-          <a href='https://github.com/haostonh/tic-tac-toe' target='_blank' rel='noopener noreferrer'>GitHub Link</a>
+          <HHLinkButton href='https://github.com/haostonh/tic-tac-toe' text='GitHub'/>
         </li>
         <li>Created with C++</li>
         <li>Simple Game of Tic-Tac-Toe</li>

@@ -58,6 +58,11 @@ li {
           align-items: center;
 }
 
+.projectImage {
+  border: solid;
+  border-color: black;
+}
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   #projectsFont {
     margin-right: 20px;

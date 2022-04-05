@@ -16,7 +16,7 @@ const Projects = () => {
         <BankingSystem/>
         <div className='projectBodyImageContainer'>
           <TicTacToe/>
-          <img classname='projectImage' src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
+          <img className='projectImage' src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
         </div>
       </div>
     </div>

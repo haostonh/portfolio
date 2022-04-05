@@ -14,8 +14,10 @@ const Projects = () => {
       <div id='projectsFont'>
         <h1 className='yearTitle'>2022</h1>
         <BankingSystem/>
-        <TicTacToe/>
-        <img src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
+        <div className='projectBodyImageContainer'>
+          <TicTacToe/>
+          <img src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
+        </div>
       </div>
     </div>
   );

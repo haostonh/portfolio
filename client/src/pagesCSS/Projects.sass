@@ -26,10 +26,17 @@ li
   margin-left: $margin-large
 .yearTitle
   margin-left: $margin-medium
+.projectBodyImageContainer
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  margin-right: $margin-large
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
   #projectsFont
     margin-right: $margin-medium
+  .projectBodyImageContainer
+    margin-right: 0px
 
 @media screen and (max-width: 425px)
   .projectBody
@@ -43,3 +50,7 @@ li
   .yearTitle 
     font-size: 25px
     margin-right: $margin-medium
+  .projectBodyImageContainer
+    flex-direction: column
+    margin-right: 0px
+

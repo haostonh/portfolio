@@ -5,6 +5,7 @@ import PortfolioHelmet from '../components/PortfolioHelmet';
 import BankingSystem from '../projects/2022/BankingSystem';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
+import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
 
 const Projects = () => {
   return (
@@ -17,6 +18,7 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <TicTacToe/>
           <img className='projectImage' src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
+          <img className='projectImage' src={TicTacToeDemo} alt={'Tic-Tac-Toe Demo'} width='300px' height='300px'/>
         </div>
       </div>
     </div>

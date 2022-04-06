@@ -4,7 +4,7 @@ import HHLinkButton from "../../components/HHLinkButton";
 
 const BankingSystem = () => {
   return (
-    <div className='projectsProjectContainer'>
+    <div className='projectsInfo'>
       <h2 className='projectTitle'>Banking System (Jan 2022 - Mar 2022)</h2>
       <ul className='projectBody'>
         <li>

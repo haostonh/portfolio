@@ -4,7 +4,7 @@ import HHLinkButton from "../../components/HHLinkButton";
 
 const TicTacToe = () => {
   return (
-    <div className='projectsProjectContainer'>
+    <div className='projectInfo'>
       <h2 className='projectTitle'>Tic-Tac-Toe (Jan 2022 - Mar 2022)</h2>
       <ul className='projectBody'>
         <li>

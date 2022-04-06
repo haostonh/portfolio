@@ -28,6 +28,7 @@ const Projects = () => {
           <img className='projectImage' src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
           <img className='projectImage projectImage250px' src={TicTacToeDemo} alt={'Tic-Tac-Toe Demo'} width='300px' height='300px'/>
         </div>
+        <h1 className='yearTitle'>2021</h1>
       </div>
     </div>
   );

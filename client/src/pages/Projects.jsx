@@ -19,8 +19,8 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <BankingSystem/>
           <div className='projectImageColumn'>
-            <img className='projectImage' src={BankingSystemDB} alt={'Banking System DB'} width='60%' height='60%'/>
-            <img className='projectImage' src={BankingSystemPrompt} alt={'Banking System Prompt'} width='50%' height='50%'/>
+            <img className='projectImage projectImage80Percent' src={BankingSystemDB} alt={'Banking System DB'} width='60%' height='60%'/>
+            <img className='projectImage projectImage80Percent' src={BankingSystemPrompt} alt={'Banking System Prompt'} width='50%' height='50%'/>
           </div>
         </div>
         <div className='projectBodyImageContainer'>

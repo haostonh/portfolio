@@ -16,16 +16,18 @@ a:active
 li
   margin-bottom: $margin-xsmall
 .projectBody 
-  margin-left: $margin-xlarge
+  margin-left: $margin-large
   font-size: 20px
 #projectPageStyle
   font-family: 'Roboto', sans-serif
+  margin-left: $margin-medium
+  margin-right: $margin-medium
 .projectInfo
   margin-bottom: $margin-medlarge
 .projectTitle 
-  margin-left: $margin-large
-.yearTitle
   margin-left: $margin-medium
+.yearTitle
+  margin-left: 0px
 .projectBodyImageContainer
   display: flex
   flex-direction: row
@@ -42,8 +44,6 @@ li
   margin-bottom: $margin-medium
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
-  #projectPageStyle
-    margin-right: $margin-medium
   .projectBodyImageContainer
     margin-right: 0px
   .projectImage
@@ -55,6 +55,9 @@ li
     margin-left: 0px
     font-size: 15px
     margin-right: $margin-smallmed
+  #projectPageStyle
+    margin-left: 0px
+    margin-right: 0px
   .projectTitle
     margin-left: $margin-medium
     margin-right: $margin-medium

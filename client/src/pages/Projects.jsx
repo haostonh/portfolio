@@ -12,7 +12,7 @@ const Projects = () => {
     <div>
       <PortfolioHelmet/>
       <NavBar/>
-      <div id='projectsFont'>
+      <div id='projectPageStyle'>
         <h1 className='yearTitle'>2022</h1>
         <BankingSystem/>
         <div className='projectBodyImageContainer'>

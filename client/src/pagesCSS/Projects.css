@@ -96,6 +96,7 @@ li {
   }
   .yearTitle {
     font-size: 25px;
+    margin-left: 20px;
     margin-right: 20px;
   }
   .projectBodyImageContainer {
@@ -104,6 +105,10 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-right: 0px;
+  }
+  .projectImage250px {
+    width: 250px;
+    height: 250px;
   }
 }
 /*# sourceMappingURL=Projects.css.map */

@@ -20,6 +20,7 @@ const Contact = () => {
         <IconAndTextBox src={githubicon} alt={'GitHub Icon'} text='GitHub' href='https://github.com/haostonh'/>
         <IconAndTextBox src={leetcodeicon} alt={'LeetCode Icon'} text='LeetCode' href='https://leetcode.com/haostonh/'/>
         <IconAndTextBox src={hackerrankicon} alt={'HackerRank Icon'} text='HackerRank' href='https://www.hackerrank.com/haostonh'/>
+        <IconAndTextBox src={devposticon} alt={'Devpost Icon'} text='Devpost' href='https://devpost.com/haostonh'/>
       </div>
     </div>
   );

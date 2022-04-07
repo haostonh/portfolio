@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <PortfolioHelmet/>
       <NavBar/>
-      <div id='aboutFont'>
+      <div id='aboutPageStyle'>
         <h1 className='aboutHeaderTitle'>Education</h1>
         <div className='aboutBody'>University of California, Davis (2017 - 2021)</div>
         <div className='aboutBody'>Independence High School (2013 - 2017)</div>

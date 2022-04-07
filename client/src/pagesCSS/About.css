@@ -4,7 +4,7 @@
   font-size: 20px;
 }
 
-#aboutFont {
+#aboutPageStyle {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  #aboutFont {
+  #aboutPageStyle {
     margin-right: 20px;
   }
 }

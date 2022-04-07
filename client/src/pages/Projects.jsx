@@ -9,6 +9,8 @@ import Hexapawn from '../projects/2021/Hexapawn';
 import HexapawnIcon from '../images/Hexapawn-Icon.jpg';
 import RushHour from '../projects/2021/RushHour';
 import RushHourPic from '../images/Rush-Hour-Game.jpg';
+import SentiVent from '../projects/2021/SentiVent';
+import SentiVentLogo from '../images/SentiVent-Logo.png';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
 import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
@@ -47,6 +49,10 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <TilePuzzle/>
           <img className='projectImage projectImage250px' src={TilePuzzlePic} alt={'Tile Puzzle'} width='300px' height='300px'/>
+        </div>
+        <div className='projectBodyImageContainer'>
+          <SentiVent/>
+          <img className='projectImage projectImage80Percent' src={SentiVentLogo} alt={'SentiVent'}/>
         </div>
       </div>
     </div>

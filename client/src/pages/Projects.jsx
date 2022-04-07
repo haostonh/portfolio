@@ -5,6 +5,7 @@ import PortfolioHelmet from '../components/PortfolioHelmet';
 import BankingSystem from '../projects/2022/BankingSystem';
 import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
+import RushHour from '../projects/2021/RushHour';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
 import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
@@ -29,6 +30,7 @@ const Projects = () => {
           <img className='projectImage projectImage250px' src={TicTacToeDemo} alt={'Tic-Tac-Toe Demo'} width='300px' height='300px'/>
         </div>
         <h1 className='yearTitle'>2021</h1>
+        <RushHour/>
       </div>
     </div>
   );

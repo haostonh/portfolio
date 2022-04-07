@@ -10,7 +10,6 @@ const TicTacToe = () => {
         <li>
           <HHLinkButton href='https://github.com/haostonh/tic-tac-toe' text='GitHub'/>
         </li>
-        <li>Created with C++</li>
         <li>Simple Game of Tic-Tac-Toe</li>
         <li>Code Compilation with Makefile</li>
         <li>Technologies Used:</li>

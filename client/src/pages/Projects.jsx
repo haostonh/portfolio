@@ -5,6 +5,8 @@ import PortfolioHelmet from '../components/PortfolioHelmet';
 import BankingSystem from '../projects/2022/BankingSystem';
 import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
+import Hexapawn from '../projects/2021/Hexapawn';
+import HexapawnIcon from '../images/Hexapawn-Icon.jpg';
 import RushHour from '../projects/2021/RushHour';
 import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import TicTacToe from '../projects/2022/TicTacToe';
@@ -34,6 +36,10 @@ const Projects = () => {
         </div>
 
         <h1 className='yearTitle'>2021</h1>
+        <div className='projectBodyImageContainer'>
+          <Hexapawn/>
+          <img className='projectImage projectImage250px' src={HexapawnIcon} alt={'Hexapawn Icon'} width='300px' height='300px'/>
+        </div>
         <div className='projectBodyImageContainer'>
           <RushHour/>
           <img className='projectImage projectImage250px' src={RushHourPic} alt={'Rush Hour Game'} width='300px' height='300px'/>

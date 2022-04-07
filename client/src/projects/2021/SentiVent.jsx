@@ -15,4 +15,4 @@ const SentiVent = () => {
   )
 }
 
-export default SentiVent
+export default SentiVent;

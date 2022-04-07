@@ -6,6 +6,7 @@ import BankingSystem from '../projects/2022/BankingSystem';
 import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
 import RushHour from '../projects/2021/RushHour';
+import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
 import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
@@ -29,9 +30,12 @@ const Projects = () => {
           <img className='projectImage' src={TicTacToeIcon} alt={'Tic-Tac-Toe Icon'} width='200px' height='200px'/>
           <img className='projectImage projectImage250px' src={TicTacToeDemo} alt={'Tic-Tac-Toe Demo'} width='300px' height='300px'/>
         </div>
-        
+
         <h1 className='yearTitle'>2021</h1>
-        <RushHour/>
+        <div className='projectBodyImageContainer'>
+          <RushHour/>
+          <img className='projectImage projectImage250px' src={RushHourPic} alt={'Rush Hour Game'} width='300px' height='300px'/>
+        </div>
       </div>
     </div>
   );

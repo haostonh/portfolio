@@ -8,7 +8,10 @@ const SentiVent = () => {
       <ul className='projectBody'>
         <li>Technologies Used:</li>
           <ul>
-            
+            <li>React</li>
+            <li>ExpressJS</li>
+            <li>Google Cloud API</li>
+            <li>OAuth</li>
           </ul>
       </ul>
     </div>

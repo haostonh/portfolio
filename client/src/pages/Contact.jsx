@@ -7,6 +7,7 @@ import linkedinicon from '../images/linkedin-icon.jpg';
 import githubicon from '../images/GitHub-Mark-64px.png';
 import leetcodeicon from '../images/LeetCode-Icon-Square.png';
 import hackerrankicon from '../images/HackerRank-Icon-480px.png';
+import devposticon from '../images/Devpost-512px.png';
 
 const Contact = () => {
   return (

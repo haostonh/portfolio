@@ -1,20 +1,18 @@
 .aboutBody {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
 #aboutPageStyle {
   font-family: 'Roboto', sans-serif;
-}
-
-.aboutHeaderTitle {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  #aboutPageStyle {
-    margin-right: 20px;
+  .aboutBody {
+    font-size: 18px;
   }
 }
 
@@ -26,7 +24,6 @@
   }
   .aboutHeaderTitle {
     font-size: 25px;
-    margin-right: 20px;
   }
 }
 /*# sourceMappingURL=About.css.map */

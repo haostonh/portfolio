@@ -3,17 +3,17 @@ $margin-medium: 20px
 $margin-small: 10px
 
 .aboutBody
-  margin-left:  $margin-large
+  margin-left:  $margin-medium
   margin-bottom: $margin-small
   font-size: 20px
 #aboutPageStyle
   font-family: 'Roboto', sans-serif
-.aboutHeaderTitle
   margin-left: $margin-medium
+  margin-right: $margin-medium
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
-  #aboutPageStyle
-    margin-right: $margin-medium
+  .aboutBody
+    font-size: 18px
 
 @media screen and (max-width: 425px)
   .aboutBody
@@ -22,4 +22,3 @@ $margin-small: 10px
     font-size: 15px
   .aboutHeaderTitle 
     font-size: 25px
-    margin-right: $margin-medium

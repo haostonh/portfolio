@@ -10,6 +10,8 @@ import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
 import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
+import TilePuzzle from '../projects/2021/TilePuzzle';
+import TilePuzzlePic from '../images/Tile-Puzzle-Example.png';
 
 const Projects = () => {
   return (
@@ -35,6 +37,10 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <RushHour/>
           <img className='projectImage projectImage250px' src={RushHourPic} alt={'Rush Hour Game'} width='300px' height='300px'/>
+        </div>
+        <div className='projectBodyImageContainer'>
+          <TilePuzzle/>
+          <img className='projectImage projectImage250px' src={TilePuzzlePic} alt={'Tile Puzzle'} width='300px' height='300px'/>
         </div>
       </div>
     </div>

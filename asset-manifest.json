@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d675b55a.css",
-    "main.js": "/portfolio/static/js/main.afe2677d.js",
+    "main.js": "/portfolio/static/js/main.23e9bb7c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Tile-Puzzle-Example.png": "/portfolio/static/media/Tile-Puzzle-Example.72fed2496d7f38b839c5.png",
     "static/media/Haoston_Huynh_Profile_Picture.jpg": "/portfolio/static/media/Haoston_Huynh_Profile_Picture.2cd62317a6f4a704f3e5.jpg",
@@ -15,11 +15,11 @@
     "static/media/Tic-Tac-Toe-Icon.png": "/portfolio/static/media/Tic-Tac-Toe-Icon.ea0b7622ced56261cba5.png",
     "index.html": "/portfolio/index.html",
     "main.d675b55a.css.map": "/portfolio/static/css/main.d675b55a.css.map",
-    "main.afe2677d.js.map": "/portfolio/static/js/main.afe2677d.js.map",
+    "main.23e9bb7c.js.map": "/portfolio/static/js/main.23e9bb7c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d675b55a.css",
-    "static/js/main.afe2677d.js"
+    "static/js/main.23e9bb7c.js"
   ]
 }

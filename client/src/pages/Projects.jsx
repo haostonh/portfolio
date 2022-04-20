@@ -7,6 +7,7 @@ import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
 import Hexapawn from '../projects/2021/Hexapawn';
 import HexapawnIcon from '../images/Hexapawn-Icon.jpg';
+import RSSReader from '../projects/2021/RSSReader';
 import RushHour from '../projects/2021/RushHour';
 import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import SentiVent from '../projects/2021/SentiVent';
@@ -53,6 +54,9 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <SentiVent/>
           <img className='projectImage projectImage80Percent' src={SentiVentLogo} alt={'SentiVent'}/>
+        </div>
+        <div className='projectBodyImageContainer'>
+          <RSSReader/>
         </div>
       </div>
     </div>

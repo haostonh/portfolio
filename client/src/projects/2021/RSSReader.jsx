@@ -20,4 +20,4 @@ const RSSReader = () => {
   )
 }
 
-export default Hexapawn;
+export default RSSReader;

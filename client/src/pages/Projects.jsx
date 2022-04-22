@@ -56,9 +56,9 @@ const Projects = () => {
         </div>
         <div className='projectBodyImageContainer'>
           <RSSReader/>
-          <img className='projectImage projectImage80Percent' src={RSSReaderPage1} alt={'RSS Reader Page 1'} width='200px' height='367px'/>
-          <img className='projectImage projectImage80Percent' src={RSSReaderPage2} alt={'RSS Reader Page 2'} width='200px' height='367px'/>
-          <img className='projectImage projectImage80Percent' src={RSSReaderPage3} alt={'RSS Reader Page 3'} width='200px' height='367px'/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage1} alt={'RSS Reader Page 1'} width='216px' height='384px'/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage2} alt={'RSS Reader Page 2'} width='216px' height='384px'/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage3} alt={'RSS Reader Page 3'} width='216px' height='384px'/>
         </div>
         <div className='projectBodyImageContainer'>
           <SentiVent/>

@@ -52,11 +52,11 @@ const Projects = () => {
           <img className='projectImage projectImage250px' src={TilePuzzlePic} alt={'Tile Puzzle'} width='300px' height='300px'/>
         </div>
         <div className='projectBodyImageContainer'>
-          <SentiVent/>
-          <img className='projectImage projectImage80Percent' src={SentiVentLogo} alt={'SentiVent'}/>
+          <RSSReader/>
         </div>
         <div className='projectBodyImageContainer'>
-          <RSSReader/>
+          <SentiVent/>
+          <img className='projectImage projectImage80Percent' src={SentiVentLogo} alt={'SentiVent'}/>
         </div>
       </div>
     </div>

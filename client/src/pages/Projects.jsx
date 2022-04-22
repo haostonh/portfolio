@@ -8,6 +8,9 @@ import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
 import Hexapawn from '../projects/2021/Hexapawn';
 import HexapawnIcon from '../images/Hexapawn-Icon.jpg';
 import RSSReader from '../projects/2021/RSSReader';
+import RSSReaderPage1 from '../images/RSSReader-Page1.png';
+import RSSReaderPage2 from '../images/RSSReader-Page2.png';
+import RSSReaderPage3 from '../images/RSSReader-Page3.png';
 import RushHour from '../projects/2021/RushHour';
 import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import SentiVent from '../projects/2021/SentiVent';
@@ -53,6 +56,9 @@ const Projects = () => {
         </div>
         <div className='projectBodyImageContainer'>
           <RSSReader/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage1} alt={'RSS Reader Page 1'} width='200px' height='367px'/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage2} alt={'RSS Reader Page 2'} width='200px' height='367px'/>
+          <img className='projectImage projectImage80Percent' src={RSSReaderPage3} alt={'RSS Reader Page 3'} width='200px' height='367px'/>
         </div>
         <div className='projectBodyImageContainer'>
           <SentiVent/>

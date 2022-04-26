@@ -67,6 +67,7 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <DiningForLove/>
           <img className='projectImage projectImage80Percent' src={DiningForLovePage1} alt={'Dining For Love Page 1'} width='216px' height='384px'/>
+        </div>
         <div className='projectBodyImageContainer'>
           <RentWell/>
           <img className='projectImage projectImage80Percent' src={RentWellPage1} alt={'RentWell Page 1'} width='216px' height='384px'/>

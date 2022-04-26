@@ -4,6 +4,15 @@
   font-size: 20px;
 }
 
+.aboutItemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #aboutPageStyle {
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;

@@ -5,6 +5,8 @@ import PortfolioHelmet from '../components/PortfolioHelmet';
 import BankingSystem from '../projects/2022/BankingSystem';
 import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
+import DiningForLove from '../projects/2021/DiningForLove';
+import DiningForLovePage1 from '../images/DiningForLove-Page1.png';
 import Hexapawn from '../projects/2021/Hexapawn';
 import HexapawnIcon from '../images/Hexapawn-Icon.jpg';
 import Moods from '../projects/2021/Moods';
@@ -62,6 +64,9 @@ const Projects = () => {
           <TilePuzzle/>
           <img className='projectImage projectImage250px' src={TilePuzzlePic} alt={'Tile Puzzle'} width='300px' height='300px'/>
         </div>
+        <div className='projectBodyImageContainer'>
+          <DiningForLove/>
+          <img className='projectImage projectImage80Percent' src={DiningForLovePage1} alt={'Dining For Love Page 1'} width='216px' height='384px'/>
         <div className='projectBodyImageContainer'>
           <RentWell/>
           <img className='projectImage projectImage80Percent' src={RentWellPage1} alt={'RentWell Page 1'} width='216px' height='384px'/>

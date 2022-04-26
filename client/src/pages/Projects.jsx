@@ -11,6 +11,10 @@ import Moods from '../projects/2021/Moods';
 import MoodsPage1 from '../images/Moods-Page1.png';
 import MoodsPage1Updated from '../images/Moods-Page1-Note.png';
 import MoodsPage2 from '../images/Moods-Page2.png';
+import RentWell from '../projects/2021/RentWell';
+import RentWellPage1 from '../images/RentWell-Page1.png';
+import RentWellPage1Info from '../images/RentWell-Page1-Info.png';
+import RentWellPage2 from '../images/RentWell-Page2.png';
 import RSSReader from '../projects/2021/RSSReader';
 import RSSReaderPage1 from '../images/RSSReader-Page1.png';
 import RSSReaderPage2 from '../images/RSSReader-Page2.png';
@@ -57,6 +61,12 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <TilePuzzle/>
           <img className='projectImage projectImage250px' src={TilePuzzlePic} alt={'Tile Puzzle'} width='300px' height='300px'/>
+        </div>
+        <div className='projectBodyImageContainer'>
+          <RentWell/>
+          <img className='projectImage projectImage80Percent' src={RentWellPage1} alt={'RentWell Page 1'} width='216px' height='384px'/>
+          <img className='projectImage projectImage80Percent' src={RentWellPage1Info} alt={'RentWell Page 1 Info'} width='216px' height='384px'/>
+          <img className='projectImage projectImage80Percent' src={RentWellPage2} alt={'RentWell Page 2'} width='216px' height='384px'/>
         </div>
         <div className='projectBodyImageContainer'>
           <Moods/>

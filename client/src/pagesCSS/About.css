@@ -10,6 +10,12 @@
   margin-right: 20px;
 }
 
+#UCDavisLogo {
+  background: white;
+  border: solid;
+  padding: 45px;
+}
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .aboutBody {
     font-size: 18px;

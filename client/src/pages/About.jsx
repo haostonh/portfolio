@@ -13,8 +13,10 @@ const About = () => {
         <h1 className='aboutHeaderTitle'>Education</h1>
         <div className='aboutItemContainer'>
           <img id='UCDavisLogo' src={UCDavisLogo} alt='UC Davis Logo' width='175px'/>
-          <div className='aboutBody'>University of California, Davis</div>
-          <div className='aboutBody'>2017-2021</div>
+          <div className='aboutTextContainer'>
+            <div className='aboutBody'>University of California, Davis</div>
+            <div className='aboutBody'>2017-2021</div>
+          </div>
         </div>
         <div className='aboutBody'>Independence High School (2013 - 2017)</div>
         <h1 className='aboutHeaderTitle'>Hobbies/Interests</h1>

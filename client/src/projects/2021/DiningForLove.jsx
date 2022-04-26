@@ -2,7 +2,7 @@ import React from "react";
 import HHLinkButton from "../../components/HHLinkButton";
 import '../../pagesCSS/Projects.css';
 
-const Hexapawn = () => {
+const DiningForLove = () => {
   return (
     <div className='projectInfo'>
       <h2 className='projectTitle'>Dining For Love (Mar 2021)</h2>
@@ -25,4 +25,4 @@ const Hexapawn = () => {
   )
 }
 
-export default Hexapawn;
+export default DiningForLove;

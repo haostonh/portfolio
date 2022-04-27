@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ffa5c302.css",
+    "main.css": "/portfolio/static/css/main.c733bf24.css",
     "main.js": "/portfolio/static/js/main.fbd23cfe.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RentWell-Page1.png": "/portfolio/static/media/RentWell-Page1.a766471ca021d811dcaf.png",
@@ -26,12 +26,12 @@
     "static/media/Devpost-512px.png": "/portfolio/static/media/Devpost-512px.1892941817f9a1758dcf.png",
     "static/media/Tic-Tac-Toe-Icon.png": "/portfolio/static/media/Tic-Tac-Toe-Icon.ea0b7622ced56261cba5.png",
     "index.html": "/portfolio/index.html",
-    "main.ffa5c302.css.map": "/portfolio/static/css/main.ffa5c302.css.map",
+    "main.c733bf24.css.map": "/portfolio/static/css/main.c733bf24.css.map",
     "main.fbd23cfe.js.map": "/portfolio/static/js/main.fbd23cfe.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffa5c302.css",
+    "static/css/main.c733bf24.css",
     "static/js/main.fbd23cfe.js"
   ]
 }

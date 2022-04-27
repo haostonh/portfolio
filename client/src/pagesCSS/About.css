@@ -46,6 +46,7 @@
 #IndependenceHighLogo {
   border: solid;
   border-width: 5px;
+  margin-right: 25px;
 }
 
 #UCDavisLogo {
@@ -81,6 +82,10 @@
     margin-left: 0px;
   }
   #UCDavisLogo {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  #IndependenceHighLogo {
     margin-right: 0px;
     margin-bottom: 20px;
   }

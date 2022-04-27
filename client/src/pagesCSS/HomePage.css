@@ -16,9 +16,9 @@
 }
 
 #homepageIntroTitle {
-  margin: 20px;
-  letter-spacing: 1px;
   font-size: 50px;
+  letter-spacing: 1px;
+  margin: 20px;
 }
 
 #homepageTextBody {
@@ -38,9 +38,9 @@
         align-self: center;
   }
   #homepageIntroTitle {
-    text-align: center;
-    margin: 0px;
     font-size: 30px;
+    margin: 0px;
+    text-align: center;
   }
   #homepageTextBody {
     margin-top: 20px;
@@ -58,14 +58,14 @@
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    height: 60%;
     margin: 0px;
     width: 60%;
-    height: 60%;
   }
   #homepageIntroTitle {
-    text-align: center;
-    margin: 0px;
     font-size: 22px;
+    margin: 0px;
+    text-align: center;
   }
   #homepageTextBody {
     margin-top: 20px;

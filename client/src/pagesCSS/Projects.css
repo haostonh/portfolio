@@ -1,3 +1,11 @@
+a:active {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -6,42 +14,19 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-
 li {
   margin-bottom: 5px;
 }
 
 .projectBody {
-  margin-left: 40px;
   font-size: 20px;
-}
-
-#projectPageStyle {
-  font-family: 'Roboto', sans-serif;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.projectInfo {
-  margin-bottom: 30px;
-}
-
-.projectTitle {
-  margin-left: 20px;
-}
-
-.yearTitle {
-  margin-left: 0px;
+  margin-left: 40px;
 }
 
 .projectBodyImageContainer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,24 +36,24 @@ li {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 40px;
+  margin-right: 40px;
 }
 
 .projectImage {
   border: solid;
   border-color: black;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .projectImageColumn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,9 +61,24 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.projectInfo {
+  margin-bottom: 30px;
+}
+
+#projectPageStyle {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectTitle {
+  margin-left: 20px;
+}
+
+.yearTitle {
+  margin-left: 0px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
@@ -93,23 +93,9 @@ li {
 
 @media screen and (max-width: 425px) {
   .projectBody {
-    margin-left: 0px;
     font-size: 15px;
-    margin-right: 15px;
-  }
-  #projectPageStyle {
     margin-left: 0px;
-    margin-right: 0px;
-  }
-  .projectTitle {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-  }
-  .yearTitle {
-    font-size: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 15px;
   }
   .projectBodyImageContainer {
     -webkit-box-orient: vertical;
@@ -118,13 +104,27 @@ li {
             flex-direction: column;
     margin-right: 0px;
   }
+  #projectPageStyle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .projectImage250px {
-    width: 250px;
     height: 250px;
+    width: 250px;
   }
   .projectImage80Percent {
-    width: 80%;
     height: 80%;
+    width: 80%;
+  }
+  .projectTitle {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .yearTitle {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 /*# sourceMappingURL=Projects.css.map */

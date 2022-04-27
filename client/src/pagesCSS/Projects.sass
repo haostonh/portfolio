@@ -1,50 +1,51 @@
-$margin-xlarge: 60px
 $margin-large: 40px
-$margin-medlarge: 30px
 $margin-medium: 20px
+$margin-medlarge: 30px
 $margin-smallmed: 15px
 $margin-xsmall: 5px
-  
+$margin-xlarge: 60px
+
+a:active
+  text-decoration: underline  
+a:hover 
+  text-decoration: underline
 a:link 
   text-decoration: none
 a:visited 
   text-decoration: none
-a:hover 
-  text-decoration: underline
-a:active
-  text-decoration: underline
 li
   margin-bottom: $margin-xsmall
-.projectBody 
-  margin-left: $margin-large
+
+.projectBody
   font-size: 20px
+  margin-left: $margin-large
+.projectBodyImageContainer
+  align-items: center
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  margin-bottom: $margin-large
+  margin-right: $margin-large
+.projectImage
+  border: solid
+  border-color: black
+  margin-bottom: $margin-medium
+  margin-top: $margin-medium
+.projectImageColumn
+  align-items: center
+  display: flex
+  flex-direction: column
+.projectInfo
+  margin-bottom: $margin-medlarge
 #projectPageStyle
   font-family: 'Roboto', sans-serif
   margin-left: $margin-medium
   margin-right: $margin-medium
-.projectInfo
-  margin-bottom: $margin-medlarge
 .projectTitle 
   margin-left: $margin-medium
 .yearTitle
   margin-left: 0px
-.projectBodyImageContainer
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
-  margin-right: $margin-large
-  justify-content: space-between
-  align-items: center
-  margin-bottom: $margin-large
-.projectImage
-  border: solid
-  border-color: black
-  margin-top: $margin-medium
-  margin-bottom: $margin-medium
-.projectImageColumn
-  display: flex
-  flex-direction: column
-  align-items: center
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
   .projectBodyImageContainer
@@ -55,26 +56,26 @@ li
 
 @media screen and (max-width: 425px)
   .projectBody
-    margin-left: 0px
     font-size: 15px
+    margin-left: 0px
     margin-right: $margin-smallmed
+  .projectBodyImageContainer
+    flex-direction: column
+    margin-right: 0px
   #projectPageStyle
     margin-left: 0px
     margin-right: 0px
+  .projectImage250px
+    height: 250px
+    width: 250px
+  .projectImage80Percent
+    height: 80%
+    width: 80%
   .projectTitle
+    font-size: 20px
     margin-left: $margin-medium
     margin-right: $margin-medium
-    font-size: 20px
   .yearTitle 
     font-size: 25px
     margin-left: $margin-medium
     margin-right: $margin-medium
-  .projectBodyImageContainer
-    flex-direction: column
-    margin-right: 0px
-  .projectImage250px
-    width: 250px
-    height: 250px
-  .projectImage80Percent
-    width: 80%
-    height: 80%

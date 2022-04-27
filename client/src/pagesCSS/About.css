@@ -81,6 +81,12 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .aboutItemTitle {
+    font-size: 25px;
+  }
+  .aboutItemYear {
+    font-size: 20px;
+  }
   .aboutTextContainer {
     margin-left: 0px;
   }

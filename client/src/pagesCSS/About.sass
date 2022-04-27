@@ -18,10 +18,12 @@ $margin-small: 10px
   flex-direction: column
   text-align: center
   justify-content: center
+  margin-left: 25px
 #UCDavisLogo
   background: white
   border: solid
   padding: 45px
+  margin-right: 25px
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
   .aboutBody
@@ -34,3 +36,10 @@ $margin-small: 10px
     font-size: 15px
   .aboutHeaderTitle 
     font-size: 25px
+  .aboutItemContainer
+    flex-direction: column
+  .aboutTextContainer
+    margin-left: 0px
+  #UCDavisLogo
+    margin-right: 0px
+    margin-bottom: $margin-medium

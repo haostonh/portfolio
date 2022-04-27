@@ -31,12 +31,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: 25px;
 }
 
 #UCDavisLogo {
   background: white;
   border: solid;
   padding: 45px;
+  margin-right: 25px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
@@ -53,6 +55,19 @@
   }
   .aboutHeaderTitle {
     font-size: 25px;
+  }
+  .aboutItemContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutTextContainer {
+    margin-left: 0px;
+  }
+  #UCDavisLogo {
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=About.css.map */

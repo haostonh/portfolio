@@ -4,6 +4,14 @@
   font-size: 20px;
 }
 
+.aboutEducationTitle {
+  font-size: 30px;
+}
+
+.aboutEducationYear {
+  font-size: 25px;
+}
+
 .aboutItemContainer {
   display: -webkit-box;
   display: -ms-flexbox;

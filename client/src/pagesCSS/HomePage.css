@@ -18,6 +18,7 @@
 #homepageIntroTitle {
   margin: 20px;
   letter-spacing: 1px;
+  font-size: 50px;
 }
 
 #homepageTextBody {
@@ -39,6 +40,7 @@
   #homepageIntroTitle {
     text-align: center;
     margin: 0px;
+    font-size: 30px;
   }
   #homepageTextBody {
     margin-top: 20px;

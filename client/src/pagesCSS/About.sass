@@ -3,17 +3,17 @@ $margin-medium: 20px
 $margin-small: 10px
 
 .aboutBody
-  margin-left:  $margin-medium
-  margin-bottom: $margin-small
   font-size: 20px
-.aboutItemTitle
-  font-size: 30px
-.aboutItemYear
-  font-size: 25px
+  margin-bottom: $margin-small
+  margin-left:  $margin-medium
 .aboutItemContainer
   display: flex
   justify-content: center
   margin-bottom: 40px
+.aboutItemTitle
+  font-size: 30px
+.aboutItemYear
+  font-size: 25px
 #aboutPageStyle
   font-family: 'Roboto', sans-serif
   margin-left: $margin-medium
@@ -21,9 +21,9 @@ $margin-small: 10px
 .aboutTextContainer
   display: flex
   flex-direction: column
-  text-align: center
   justify-content: center
   margin-left: 25px
+  text-align: center
 #IndependenceHighLogo
   border: solid
   border-width: 5px
@@ -32,8 +32,8 @@ $margin-small: 10px
   background: white
   border: solid
   border-width: 5px
-  padding: 45px
   margin-right: 25px
+  padding: 45px
 
 @media screen and (min-width: 426px) and (max-width: 1024px)
   .aboutBody
@@ -41,23 +41,23 @@ $margin-small: 10px
 
 @media screen and (max-width: 425px)
   .aboutBody
-    margin-left:  0px
     margin-bottom: $margin-small
+    margin-left:  0px
     font-size: 15px
   .aboutHeaderTitle 
     font-size: 25px
   .aboutItemContainer
-    flex-direction: column
     align-items: center
+    flex-direction: column
   .aboutItemTitle
     font-size: 25px
   .aboutItemYear
     font-size: 20px
   .aboutTextContainer
     margin-left: 0px
-  #UCDavisLogo
-    margin-right: 0px
-    margin-bottom: $margin-medium
   #IndependenceHighLogo
-    margin-right: 0px
     margin-bottom: $margin-medium
+    margin-right: 0px
+  #UCDavisLogo
+    margin-bottom: $margin-medium
+    margin-right: 0px

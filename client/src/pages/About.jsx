@@ -3,6 +3,7 @@ import '../pagesCSS/About.css';
 import NavBar from '../components/NavBar';
 import PortfolioHelmet from '../components/PortfolioHelmet';
 import UCDavisLogo from '../images/UC-Davis-Gold-Blue-Logo.png';
+import IndependenceHighLogo from '../images/Independence-High-School-Logo.jpg';
 
 const About = () => {
   return (
@@ -18,7 +19,13 @@ const About = () => {
             <div className='aboutBody aboutItemYear'>2017 - 2021</div>
           </div>
         </div>
-        <div className='aboutBody'>Independence High School (2013 - 2017)</div>
+        <div className='aboutItemContainer'>
+          <img id='IndependenceHighLogo' src={IndependenceHighLogo} alt='Independence High School Logo' width='175px'/>
+          <div className='aboutTextContainer'>
+            <div className='aboutBody aboutItemTitle'>Independence High School</div>
+            <div className='aboutBody aboutItemYear'>2013 - 2017</div>
+          </div>
+        </div>
         <h1 className='aboutHeaderTitle'>Hobbies/Interests</h1>
         <div className='aboutBody'>Orienteering</div>
         <div className='aboutBody'>Piano</div>

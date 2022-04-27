@@ -14,8 +14,8 @@ const About = () => {
         <div className='aboutItemContainer'>
           <img id='UCDavisLogo' src={UCDavisLogo} alt='UC Davis Logo' width='175px'/>
           <div className='aboutTextContainer'>
-            <div className='aboutBody aboutEducationTitle'>University of California, Davis</div>
-            <div className='aboutBody aboutEducationYear'>2017 - 2021</div>
+            <div className='aboutBody aboutItemTitle'>University of California, Davis</div>
+            <div className='aboutBody aboutItemYear'>2017 - 2021</div>
           </div>
         </div>
         <div className='aboutBody'>Independence High School (2013 - 2017)</div>

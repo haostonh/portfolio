@@ -2,8 +2,11 @@ import React from 'react';
 import '../pagesCSS/About.css';
 import NavBar from '../components/NavBar';
 import PortfolioHelmet from '../components/PortfolioHelmet';
-import UCDavisLogo from '../images/UC-Davis-Gold-Blue-Logo.png';
+import OrienteeringIcon from '../images/Compass-Icon.png';
 import IndependenceHighLogo from '../images/Independence-High-School-Logo.jpg';
+import PianoIcon from '../images/Piano-Icon.png';
+import UCDavisLogo from '../images/UC-Davis-Gold-Blue-Logo.png';
+import WallyballIcon from '../images/Wallyball-Icon.png';
 
 const About = () => {
   return (
@@ -27,9 +30,18 @@ const About = () => {
           </div>
         </div>
         <h1 className='aboutHeaderTitle'>Hobbies/Interests</h1>
-        <div className='aboutBody'>Orienteering</div>
-        <div className='aboutBody'>Piano</div>
-        <div className='aboutBody'>Wallyball</div>
+        <div className='aboutItemContainer'>
+          <img src={OrienteeringIcon} alt='Orienteering Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle'>Orienteering</div>
+        </div>
+        <div className='aboutItemContainer'>
+          <img src={PianoIcon} alt='Piano Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle'>Piano</div>
+        </div>
+        <div className='aboutItemContainer'>
+          <img src={WallyballIcon} alt='Wallyball Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle'>Wallyball</div>
+        </div>
       </div>
     </div>
   );

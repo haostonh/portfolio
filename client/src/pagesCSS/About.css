@@ -4,6 +4,10 @@
   margin-left: 20px;
 }
 
+.aboutHeaderTitle {
+  margin-bottom: 30px;
+}
+
 .aboutItemContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,6 +81,10 @@
   }
   .aboutHeaderTitle {
     font-size: 25px;
+  }
+  .aboutHobbyLogo {
+    margin-bottom: 20px;
+    margin-right: 0px;
   }
   .aboutItemContainer {
     -webkit-box-align: center;

@@ -31,16 +31,16 @@ const About = () => {
         </div>
         <h1 className='aboutHeaderTitle'>Hobbies/Interests</h1>
         <div className='aboutItemContainer'>
-          <img src={OrienteeringIcon} alt='Orienteering Icon' width='200px' height='200px'></img>
-          <div className='aboutBody aboutItemTitle'>Orienteering</div>
+          <img className='aboutHobbyLogo' src={OrienteeringIcon} alt='Orienteering Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle aboutTextContainer'>Orienteering</div>
         </div>
         <div className='aboutItemContainer'>
-          <img src={PianoIcon} alt='Piano Icon' width='200px' height='200px'></img>
-          <div className='aboutBody aboutItemTitle'>Piano</div>
+          <img className='aboutHobbyLogo' src={PianoIcon} alt='Piano Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle aboutTextContainer'>Piano</div>
         </div>
         <div className='aboutItemContainer'>
-          <img src={WallyballIcon} alt='Wallyball Icon' width='200px' height='200px'></img>
-          <div className='aboutBody aboutItemTitle'>Wallyball</div>
+          <img className='aboutHobbyLogo' src={WallyballIcon} alt='Wallyball Icon' width='200px' height='200px'></img>
+          <div className='aboutBody aboutItemTitle aboutTextContainer'>Wallyball</div>
         </div>
       </div>
     </div>

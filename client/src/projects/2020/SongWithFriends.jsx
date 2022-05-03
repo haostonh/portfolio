@@ -14,6 +14,8 @@ const SongWithFriends = () => {
             <li>CSS</li>
             <li>React</li>
             <li>Redux</li>
+            <li>Google Sign-In</li>
+            <li>Spotify API</li>
           </ul>
       </ul>
     </div>

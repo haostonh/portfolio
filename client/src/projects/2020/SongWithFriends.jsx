@@ -1,5 +1,4 @@
 import React from "react";
-import HHLinkButton from "../../components/HHLinkButton";
 import '../../pagesCSS/Projects.css';
 
 const SongWithFriends = () => {

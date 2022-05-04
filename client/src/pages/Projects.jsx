@@ -25,6 +25,8 @@ import RushHour from '../projects/2021/RushHour';
 import RushHourPic from '../images/Rush-Hour-Game.jpg';
 import SentiVent from '../projects/2021/SentiVent';
 import SentiVentLogo from '../images/SentiVent-Logo.png';
+import SongWithFriends from '../projects/2020/SongWithFriends';
+import SongWithFriendsIcon from '../images/SongWithFriends-Icon.png';
 import TicTacToe from '../projects/2022/TicTacToe';
 import TicTacToeIcon from '../images/Tic-Tac-Toe-Icon.png';
 import TicTacToeDemo from '../images/Tic-Tac-Toe-Demo.png';
@@ -89,6 +91,12 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <SentiVent/>
           <img className='projectImage projectImage80Percent' src={SentiVentLogo} alt={'SentiVent'}/>
+        </div>
+
+        <h1 className='yearTitle'>2020</h1>
+        <div className='projectBodyImageContainer'>
+          <SongWithFriends/>
+          <img className='projectImage projectImage250px' src={SongWithFriendsIcon} alt={'Song With Friends Icon'} width='300px' height='300px'/>
         </div>
       </div>
     </div>

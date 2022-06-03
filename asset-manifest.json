@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.04fc9ad7.css",
-    "main.js": "/portfolio/static/js/main.5e0c098a.js",
+    "main.js": "/portfolio/static/js/main.a1152fc5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RentWell-Page1.png": "/portfolio/static/media/RentWell-Page1.a766471ca021d811dcaf.png",
     "static/media/Tile-Puzzle-Example.png": "/portfolio/static/media/Tile-Puzzle-Example.72fed2496d7f38b839c5.png",
     "static/media/Haoston_Huynh_Profile_Picture.jpg": "/portfolio/static/media/Haoston_Huynh_Profile_Picture.2cd62317a6f4a704f3e5.jpg",
+    "static/media/SongWithFriends-Icon.png": "/portfolio/static/media/SongWithFriends-Icon.26bef09cf7e23ab80196.png",
     "static/media/RSSReader-Page3.png": "/portfolio/static/media/RSSReader-Page3.b0786c616347042fd9e6.png",
     "static/media/Rush-Hour-Game.jpg": "/portfolio/static/media/Rush-Hour-Game.3b44a807411dcb0c91e4.jpg",
     "static/media/DiningForLove-Page1.png": "/portfolio/static/media/DiningForLove-Page1.2450e4a1c53562c5da9a.png",
@@ -29,11 +30,11 @@
     "static/media/Compass-Icon.png": "/portfolio/static/media/Compass-Icon.e4ea41fa8fa243b2b853.png",
     "index.html": "/portfolio/index.html",
     "main.04fc9ad7.css.map": "/portfolio/static/css/main.04fc9ad7.css.map",
-    "main.5e0c098a.js.map": "/portfolio/static/js/main.5e0c098a.js.map",
+    "main.a1152fc5.js.map": "/portfolio/static/js/main.a1152fc5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04fc9ad7.css",
-    "static/js/main.5e0c098a.js"
+    "static/js/main.a1152fc5.js"
   ]
 }

@@ -89,6 +89,10 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
+  .projectImage450px {
+    width: 450px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 425px) {

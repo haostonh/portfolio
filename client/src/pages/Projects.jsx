@@ -46,8 +46,8 @@ const Projects = () => {
         <div className='projectBodyImageContainer'>
           <ApartmentsWebScraper/>
           <div className='projectImageColumn'>
-            <img className='projectImage projectImage80Percent' src={ApartmentsWebScraperCommandLine} alt={'Apartments Web Scraper Command Line'} width='60%' height='60%'/>
-            <img className='projectImage projectImage80Percent' src={ApartmentsWebScraperCSV} alt={'Apartments Web Scraper CSV'} width='50%' height='50%'/>
+            <img className='projectImage projectImage450px projectImage80Percent' src={ApartmentsWebScraperCommandLine} alt={'Apartments Web Scraper Command Line'} width='600px' height='auto'/>
+            <img className='projectImage projectImage450px projectImage80Percent' src={ApartmentsWebScraperCSV} alt={'Apartments Web Scraper CSV'} width='600px' height='auto'/>
           </div>
         </div>
         <div className='projectBodyImageContainer'>

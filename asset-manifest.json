@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6f798470.css",
+    "main.css": "/portfolio/static/css/main.47bc55a8.css",
     "main.js": "/portfolio/static/js/main.414cabc3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RentWell-Page1.png": "/portfolio/static/media/RentWell-Page1.a766471ca021d811dcaf.png",
@@ -31,12 +31,12 @@
     "static/media/Wallyball-Icon.png": "/portfolio/static/media/Wallyball-Icon.6f75975f275c6e507db5.png",
     "static/media/Compass-Icon.png": "/portfolio/static/media/Compass-Icon.e4ea41fa8fa243b2b853.png",
     "index.html": "/portfolio/index.html",
-    "main.6f798470.css.map": "/portfolio/static/css/main.6f798470.css.map",
+    "main.47bc55a8.css.map": "/portfolio/static/css/main.47bc55a8.css.map",
     "main.414cabc3.js.map": "/portfolio/static/js/main.414cabc3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f798470.css",
+    "static/css/main.47bc55a8.css",
     "static/js/main.414cabc3.js"
   ]
 }

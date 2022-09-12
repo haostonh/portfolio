@@ -2,6 +2,9 @@ import React from 'react';
 import '../pagesCSS/Projects.css';
 import NavBar from '../components/NavBar';
 import PortfolioHelmet from '../components/PortfolioHelmet';
+import ApartmentsWebScraper from '../projects/2022/ApartmentsWebScraper';
+import ApartmentsWebScraperCommandLine from '../images/Apartments-Web-Scraper-Command-Line.png';
+import ApartmentsWebScraperCSV from '../images/Apartments-Web-Scraper-CSV.png';
 import BankingSystem from '../projects/2022/BankingSystem';
 import BankingSystemDB from '../images/Banking-System-DB.png';
 import BankingSystemPrompt from '../images/Banking-System-Prompt.png';
@@ -40,6 +43,13 @@ const Projects = () => {
       <NavBar/>
       <div id='projectPageStyle'>
         <h1 className='yearTitle'>2022</h1>
+        <div className='projectBodyImageContainer'>
+          <ApartmentsWebScraper/>
+          <div className='projectImageColumn'>
+            <img className='projectImage projectImage80Percent' src={ApartmentsWebScraperCommandLine} alt={'Apartments Web Scraper Command Line'} width='60%' height='60%'/>
+            <img className='projectImage projectImage80Percent' src={ApartmentsWebScraperCSV} alt={'Apartments Web Scraper CSV'} width='50%' height='50%'/>
+          </div>
+        </div>
         <div className='projectBodyImageContainer'>
           <BankingSystem/>
           <div className='projectImageColumn'>

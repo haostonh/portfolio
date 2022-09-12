@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04fc9ad7.css",
-    "main.js": "/portfolio/static/js/main.632d35af.js",
+    "main.css": "/portfolio/static/css/main.6f798470.css",
+    "main.js": "/portfolio/static/js/main.414cabc3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RentWell-Page1.png": "/portfolio/static/media/RentWell-Page1.a766471ca021d811dcaf.png",
     "static/media/Tile-Puzzle-Example.png": "/portfolio/static/media/Tile-Puzzle-Example.72fed2496d7f38b839c5.png",
@@ -11,6 +11,7 @@
     "static/media/Rush-Hour-Game.jpg": "/portfolio/static/media/Rush-Hour-Game.3b44a807411dcb0c91e4.jpg",
     "static/media/DiningForLove-Page1.png": "/portfolio/static/media/DiningForLove-Page1.2450e4a1c53562c5da9a.png",
     "static/media/RSSReader-Page2.png": "/portfolio/static/media/RSSReader-Page2.7d0f88e0423b5ee76375.png",
+    "static/media/Apartments-Web-Scraper-CSV.png": "/portfolio/static/media/Apartments-Web-Scraper-CSV.cc58c6941f34079da43a.png",
     "static/media/RentWell-Page1-Info.png": "/portfolio/static/media/RentWell-Page1-Info.28944cee67dcda06d69f.png",
     "static/media/Moods-Page2.png": "/portfolio/static/media/Moods-Page2.157039bb11b1ba29ae3d.png",
     "static/media/RSSReader-Page1.png": "/portfolio/static/media/RSSReader-Page1.4197692a7ad73c5ac5fa.png",
@@ -19,6 +20,7 @@
     "static/media/Hexapawn-Icon.jpg": "/portfolio/static/media/Hexapawn-Icon.99ebe08aee7f6c49c6db.jpg",
     "static/media/RentWell-Page2.png": "/portfolio/static/media/RentWell-Page2.dd48bd7c224406007105.png",
     "static/media/Moods-Page1.png": "/portfolio/static/media/Moods-Page1.85822e4418f43b1e9423.png",
+    "static/media/Apartments-Web-Scraper-Command-Line.png": "/portfolio/static/media/Apartments-Web-Scraper-Command-Line.f219ad2d795ad66dbfae.png",
     "static/media/Banking-System-DB.png": "/portfolio/static/media/Banking-System-DB.44b3b10b0b5ad70c7fc4.png",
     "static/media/Independence-High-School-Logo.jpg": "/portfolio/static/media/Independence-High-School-Logo.0bb7dbfc4425a2c16dd1.jpg",
     "static/media/Banking-System-Prompt.png": "/portfolio/static/media/Banking-System-Prompt.0061ceb311d205fd1c4e.png",
@@ -29,12 +31,12 @@
     "static/media/Wallyball-Icon.png": "/portfolio/static/media/Wallyball-Icon.6f75975f275c6e507db5.png",
     "static/media/Compass-Icon.png": "/portfolio/static/media/Compass-Icon.e4ea41fa8fa243b2b853.png",
     "index.html": "/portfolio/index.html",
-    "main.04fc9ad7.css.map": "/portfolio/static/css/main.04fc9ad7.css.map",
-    "main.632d35af.js.map": "/portfolio/static/js/main.632d35af.js.map",
+    "main.6f798470.css.map": "/portfolio/static/css/main.6f798470.css.map",
+    "main.414cabc3.js.map": "/portfolio/static/js/main.414cabc3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04fc9ad7.css",
-    "static/js/main.632d35af.js"
+    "static/css/main.6f798470.css",
+    "static/js/main.414cabc3.js"
   ]
 }
